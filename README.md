@@ -1,6 +1,6 @@
-# strace2seccomp
+# syscall2seccomp
 
-This tool tries to help build custom Docker seccomp profile by collecting
+A tool to help build custom Docker seccomp profile by extracting
 syscalls from various tools and outputting them to the [Docker custom seccomp profiles](https://docs.docker.com/engine/security/seccomp/) JSON format. 
 In theory, this would  let you come up with a customized whitelist of only the required syscalls and
 block/error/crash\* all other syscall attempts. 
@@ -88,15 +88,37 @@ syscalls besides the syscalls that your application needs after starting.
 
 **Why use a custom seccomp profile?**
 
-Great question. You'll need to look at your environment and see if overriding
-the Docker default profile is worth it to you. In most cases, this adds a
-major amount of overhead and testing with minimal results in terms 
-limiting the attack surface. 
+Seccomp BPF is a powerful tool to prevent potentially malicious system calls
+from being sent insides your container. Minimizing the syscalls that should be
+allowed minimizes the attack surface and could prevent a container breakout. 
+
+That's the idea. 
+
+Should you use custom seccomp profiles for each of your containers? Probably 
+not. Managing so many custom profiles, deploying them consistently, and 
+integrating it into unit testing is most likely more effort (and risk) than
+it's worth. 
+
+**So you don't recommend custom seccomp profiles, why make this tool?**
+
+The use case is individuals that want to play with custom seccomp profiles
+and apply it to a few of the Docker containers they run. In that scenario,
+where they spend the time customizing the profile to be _more_ secure than
+the default one, it adds some value. 
+
+For enterprises with major deployments
+and orchestration involved, I just wanted to make it as easy as possible to see how annoying it was 
+to manage custom seccomp profiles. 
+
+Maybe Docker will address this by letting you apply multiple seccomp profiles
+(right now, the last profile to be applied, wins) or  aid in managing profiles
+in Swarm but at this point, there's more
+value in working to build custom AppArmor profiles. 
 
 **Why do you add a bunch of syscals automatically?**
 
 [Syscalls.py](https://github.com/antitree/syscall2seccomp/blob/master/syscalls.py#L321-L337) contains
-a list of requisit syscalls by any container. See: https://github.com/moby/moby/issues/22252
+a list of requisit syscalls by any container because reasons. See: https://github.com/moby/moby/issues/22252
 
 **What about seccomp BPF arguments? Isn't that the point of BPF?**
 
