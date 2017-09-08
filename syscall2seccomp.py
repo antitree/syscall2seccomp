@@ -8,11 +8,18 @@ import argparse
 
 import syscalls
 
-SECCOMP_PROFILE_TEMPLATE_PATH = "seccomp.json"
-
 # These syscalls are _required_ to start a container
 # see https://github.com/moby/moby/issues/22252
 BASE_SYSCALLS = syscalls.DOCKER
+
+SECCOMP_PROFILE = ('{"defaultAction": "SCMP_ACT_ERRNO",'
+    '"architectures": ['
+    '"SCMP_ARCH_X86_64",'
+    '"SCMP_ARCH_X86",'
+    '"SCMP_ARCH_X32"],'
+    '"syscalls": []}'
+    )
+
 
 
 def main(): 
@@ -31,18 +38,13 @@ def main():
         else: 
             app_syscalls.update((x.split('(', 1)[0] for x in f if x[0].isalpha()))
     
-    app_syscalls.intersection_update(syscalls.SYSCALLS)
+    app_syscalls.intersection_update(syscalls.SYSCALLS) # validate syscalls actually exist
     to_profile(app_syscalls)
 
 
 def _load_template():
-    try:
-        with open(SECCOMP_PROFILE_TEMPLATE_PATH, 'r') as template:
-            template = json.loads(template.read())
-        return template
-    except:
-        print("Error importing template profile at: {}".format(SECCOMP_PROFILE_TEMPLATE_PATH))
-        return False
+    template = json.loads(SECCOMP_PROFILE)
+    return template
 
 
 def _syscall_template():
@@ -65,7 +67,6 @@ def to_profile(syscalls):
     newsyscall = _syscall_template()
     newsyscall["names"] = list(syscalls)
     template["syscalls"].append(newsyscall)
-
 
     print(json.dumps(template, indent=4))
         

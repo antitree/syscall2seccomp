@@ -1,0 +1,1757 @@
+257606 14:28:33.038284292 0 runc:[2:INIT] (27609) < clone res=0 exe=/proc/self/exe args=init. tid=27609(runc:[2:INIT]) pid=27608(runc:[1:CHILD]) ptid=27605(docker-runc) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=0 vm_size=25604 vm_rss=2420 vm_swap=0 comm=runc:[2:INIT] cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=47619(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM) uid=0 gid=0 vtid=2 vpid=1(systemd) 
+257609 14:28:33.038295469 0 runc:[2:INIT] (27609) > set_robust_list 
+257610 14:28:33.038295908 0 runc:[2:INIT] (27609) < set_robust_list 
+257611 14:28:33.038297912 0 runc:[2:INIT] (27609) > <unknown> 
+257612 14:28:33.038298202 0 runc:[2:INIT] (27609) < <unknown> 
+257613 14:28:33.038298439 0 runc:[2:INIT] (27609) > <unknown> 
+257614 14:28:33.038298639 0 runc:[2:INIT] (27609) < <unknown> 
+257615 14:28:33.038298847 0 runc:[2:INIT] (27609) > gettid 
+257616 14:28:33.038299049 0 runc:[2:INIT] (27609) < gettid 
+257617 14:28:33.038299496 0 runc:[2:INIT] (27609) > rt_sigprocmask 
+257618 14:28:33.038299910 0 runc:[2:INIT] (27609) < rt_sigprocmask 
+257619 14:28:33.038300396 0 runc:[2:INIT] (27609) > select 
+257620 14:28:33.038303160 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=25604 vm_rss=3148 vm_swap=0 
+257640 14:28:33.038355828 0 runc:[2:INIT] (27610) < clone res=0 exe=/proc/self/exe args=init. tid=27610(runc:[2:INIT]) pid=27608(runc:[1:CHILD]) ptid=27605(docker-runc) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=0 vm_size=33800 vm_rss=3148 vm_swap=0 comm=runc:[2:INIT] cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=47619(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM) uid=0 gid=0 vtid=3 vpid=1(systemd) 
+257645 14:28:33.038362492 0 runc:[2:INIT] (27610) > set_robust_list 
+257646 14:28:33.038362779 0 runc:[2:INIT] (27610) < set_robust_list 
+257647 14:28:33.038363678 0 runc:[2:INIT] (27610) > <unknown> 
+257648 14:28:33.038363929 0 runc:[2:INIT] (27610) < <unknown> 
+257649 14:28:33.038364150 0 runc:[2:INIT] (27610) > <unknown> 
+257650 14:28:33.038364346 0 runc:[2:INIT] (27610) < <unknown> 
+257651 14:28:33.038364547 0 runc:[2:INIT] (27610) > gettid 
+257652 14:28:33.038364771 0 runc:[2:INIT] (27610) < gettid 
+257653 14:28:33.038365261 0 runc:[2:INIT] (27610) > rt_sigprocmask 
+257654 14:28:33.038365569 0 runc:[2:INIT] (27610) < rt_sigprocmask 
+257656 14:28:33.038367165 0 runc:[2:INIT] (27610) > select 
+257657 14:28:33.038369062 0 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=33800 vm_rss=3148 vm_swap=0 
+257660 14:28:33.038375665 0 runc:[2:INIT] (27609) < select res=0 
+257661 14:28:33.038377391 0 runc:[2:INIT] (27609) > select 
+257662 14:28:33.038379557 0 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=33800 vm_rss=3148 vm_swap=0 
+257665 14:28:33.038380476 0 runc:[2:INIT] (27610) < select res=0 
+257674 14:28:33.038410673 0 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=2 vm_size=41996 vm_rss=3148 vm_swap=0 
+257703 14:28:33.038451516 0 runc:[2:INIT] (27609) < select res=0 
+257705 14:28:33.038452681 0 runc:[2:INIT] (27609) > select 
+257707 14:28:33.038454378 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=41996 vm_rss=3148 vm_swap=0 
+257724 14:28:33.038475527 0 runc:[2:INIT] (27610) > mmap addr=0 length=134217728 prot=0(PROT_NONE) flags=74(MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE) fd=-1(EPERM) offset=0 
+257726 14:28:33.038485455 0 runc:[2:INIT] (27610) < mmap res=7F178A922000 vm_size=173068 vm_rss=3148 vm_swap=0 
+257727 14:28:33.038485851 0 runc:[2:INIT] (27610) > munmap addr=7F178A922000 length=23977984 
+257731 14:28:33.038492160 0 runc:[2:INIT] (27610) < munmap res=0 vm_size=149652 vm_rss=3148 vm_swap=0 
+257732 14:28:33.038492594 0 runc:[2:INIT] (27610) > munmap addr=7F1790000000 length=43130880 
+257733 14:28:33.038494103 0 runc:[2:INIT] (27610) < munmap res=0 vm_size=107532 vm_rss=3148 vm_swap=0 
+257734 14:28:33.038494380 0 runc:[2:INIT] (27610) > mprotect 
+257735 14:28:33.038495642 0 runc:[2:INIT] (27610) < mprotect 
+257737 14:28:33.038503964 1 runc:[2:INIT] (27611) < clone res=0 exe=/proc/self/exe args=init. tid=27611(runc:[2:INIT]) pid=27608(runc:[1:CHILD]) ptid=27605(docker-runc) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=0 vm_size=107532 vm_rss=3148 vm_swap=0 comm=runc:[2:INIT] cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=47619(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM) uid=0 gid=0 vtid=4 vpid=1(systemd) 
+257738 14:28:33.038507391 0 runc:[2:INIT] (27610) > rt_sigprocmask 
+257739 14:28:33.038507867 0 runc:[2:INIT] (27610) < rt_sigprocmask 
+257740 14:28:33.038508487 0 runc:[2:INIT] (27610) > mmap addr=0 length=8392704 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+257741 14:28:33.038509804 1 runc:[2:INIT] (27611) > set_robust_list 
+257742 14:28:33.038509997 1 runc:[2:INIT] (27611) < set_robust_list 
+257743 14:28:33.038510327 0 runc:[2:INIT] (27610) < mmap res=7F1792121000 vm_size=115728 vm_rss=3148 vm_swap=0 
+257744 14:28:33.038510695 1 runc:[2:INIT] (27611) > <unknown> 
+257745 14:28:33.038510982 1 runc:[2:INIT] (27611) < <unknown> 
+257746 14:28:33.038511216 1 runc:[2:INIT] (27611) > <unknown> 
+257747 14:28:33.038511423 1 runc:[2:INIT] (27611) < <unknown> 
+257748 14:28:33.038511601 1 runc:[2:INIT] (27611) > gettid 
+257749 14:28:33.038511840 1 runc:[2:INIT] (27611) < gettid 
+257750 14:28:33.038512208 1 runc:[2:INIT] (27611) > rt_sigprocmask 
+257751 14:28:33.038512466 1 runc:[2:INIT] (27611) < rt_sigprocmask 
+257752 14:28:33.038514056 0 runc:[2:INIT] (27610) > mprotect 
+257753 14:28:33.038514586 1 runc:[2:INIT] (27611) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+257754 14:28:33.038515380 0 runc:[2:INIT] (27610) < mprotect 
+257755 14:28:33.038517013 1 runc:[2:INIT] (27611) < futex res=1 
+257756 14:28:33.038517414 0 runc:[2:INIT] (27610) > clone 
+257757 14:28:33.038518017 1 runc:[2:INIT] (27611) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=0 vm_size=115728 vm_rss=3148 vm_swap=0 
+257759 14:28:33.038527434 0 runc:[2:INIT] (27610) > switch next=27609(runc:[2:INIT]) pgft_maj=0 pgft_min=10 vm_size=115728 vm_rss=3148 vm_swap=0 
+257760 14:28:33.038528719 0 runc:[2:INIT] (27609) < select res=0 
+257761 14:28:33.038530128 0 runc:[2:INIT] (27609) > select 
+257762 14:28:33.038532213 0 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=115728 vm_rss=3148 vm_swap=0 
+257763 14:28:33.038538194 0 runc:[2:INIT] (27610) < clone res=5 exe=/proc/self/exe args=init. tid=27610(runc:[2:INIT]) pid=27608(runc:[1:CHILD]) ptid=27605(docker-runc) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=10 vm_size=115728 vm_rss=3148 vm_swap=0 comm=runc:[2:INIT] cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=47619(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM) uid=0 gid=0 vtid=3 vpid=1(systemd) 
+257764 14:28:33.038544574 0 runc:[2:INIT] (27610) > rt_sigprocmask 
+257765 14:28:33.038544914 0 runc:[2:INIT] (27610) < rt_sigprocmask 
+257766 14:28:33.038551730 0 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+257767 14:28:33.038553521 0 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=115728 vm_rss=3148 vm_swap=0 
+257771 14:28:33.038605564 0 runc:[2:INIT] (27609) < select res=0 
+257772 14:28:33.038606513 0 runc:[2:INIT] (27609) > select 
+257773 14:28:33.038608066 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 
+257776 14:28:33.038657877 0 runc:[2:INIT] (27612) < clone res=0 exe=/proc/self/exe args=init. tid=27612(runc:[2:INIT]) pid=27608(runc:[1:CHILD]) ptid=27605(docker-runc) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 comm=runc:[2:INIT] cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=47619(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM) uid=0 gid=0 vtid=5 vpid=1(systemd) 
+257777 14:28:33.038665280 0 runc:[2:INIT] (27612) > set_robust_list 
+257778 14:28:33.038665486 0 runc:[2:INIT] (27612) < set_robust_list 
+257779 14:28:33.038666579 0 runc:[2:INIT] (27612) > <unknown> 
+257780 14:28:33.038666897 0 runc:[2:INIT] (27612) < <unknown> 
+257782 14:28:33.038667481 0 runc:[2:INIT] (27612) > <unknown> 
+257783 14:28:33.038667680 0 runc:[2:INIT] (27612) < <unknown> 
+257784 14:28:33.038667889 0 runc:[2:INIT] (27612) > gettid 
+257785 14:28:33.038668069 0 runc:[2:INIT] (27612) < gettid 
+257786 14:28:33.038668483 0 runc:[2:INIT] (27612) > rt_sigprocmask 
+257787 14:28:33.038668807 0 runc:[2:INIT] (27612) < rt_sigprocmask 
+257788 14:28:33.038670789 0 runc:[2:INIT] (27612) > select 
+257789 14:28:33.038672698 0 runc:[2:INIT] (27612) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 
+257792 14:28:33.038682569 0 runc:[2:INIT] (27609) < select res=0 
+257793 14:28:33.038683381 0 runc:[2:INIT] (27609) > select 
+257795 14:28:33.038684957 0 runc:[2:INIT] (27609) > switch next=27612(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 
+257796 14:28:33.038685585 0 runc:[2:INIT] (27612) < select res=0 
+257798 14:28:33.038686341 0 runc:[2:INIT] (27612) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+257799 14:28:33.038688229 0 runc:[2:INIT] (27612) < futex res=1 
+257800 14:28:33.038688825 0 runc:[2:INIT] (27612) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 
+257801 14:28:33.038689412 0 runc:[2:INIT] (27610) < futex res=0 
+257802 14:28:33.038690695 0 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+257803 14:28:33.038691580 0 runc:[2:INIT] (27610) > switch next=27612(runc:[2:INIT]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=3148 vm_swap=0 
+257804 14:28:33.038693408 0 runc:[2:INIT] (27612) > futex addr=C42005C110 op=0(FUTEX_WAIT) val=0 
+257806 14:28:33.038695452 0 runc:[2:INIT] (27612) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=3148 vm_swap=0 
+258332 14:28:33.039713012 0 runc:[2:INIT] (27609) < select res=0 
+258333 14:28:33.039714275 0 runc:[2:INIT] (27609) > select 
+258334 14:28:33.039718460 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+258347 14:28:33.039793081 0 runc:[2:INIT] (27609) < select res=0 
+258350 14:28:33.039796918 0 runc:[2:INIT] (27609) > select 
+258354 14:28:33.039799348 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+258365 14:28:33.039809477 0 runc:[2:INIT] (27612) < futex res=0 
+258368 14:28:33.039811868 0 runc:[2:INIT] (27612) > select 
+258372 14:28:33.039814481 0 runc:[2:INIT] (27612) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+258374 14:28:33.039816324 0 runc:[2:INIT] (27610) < futex res=0 
+258377 14:28:33.039818602 1 runc:[2:INIT] (27611) > futex addr=C420024D10 op=0(FUTEX_WAIT) val=0 
+258378 14:28:33.039820346 1 runc:[2:INIT] (27611) > switch next=25576(threaded-ml) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+258380 14:28:33.039820828 0 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258382 14:28:33.039822816 0 runc:[2:INIT] (27610) < futex res=1 
+258383 14:28:33.039823075 0 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258386 14:28:33.039825233 0 runc:[2:INIT] (27610) > switch next=27617(systemd-udevd) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258415 14:28:33.039860500 1 runc:[2:INIT] (27610) < futex res=0 
+258418 14:28:33.039867155 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258420 14:28:33.039868710 1 runc:[2:INIT] (27610) < futex res=1 
+258421 14:28:33.039868976 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258424 14:28:33.039870087 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258448 14:28:33.039878602 1 runc:[2:INIT] (27610) < futex res=0 
+258451 14:28:33.039879952 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258453 14:28:33.039881079 1 runc:[2:INIT] (27610) < futex res=1 
+258455 14:28:33.039881369 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258456 14:28:33.039882329 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258466 14:28:33.039886642 1 runc:[2:INIT] (27610) < futex res=0 
+258467 14:28:33.039888149 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258468 14:28:33.039889055 1 runc:[2:INIT] (27610) < futex res=1 
+258470 14:28:33.039889300 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258471 14:28:33.039890144 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258479 14:28:33.039895628 1 runc:[2:INIT] (27610) < futex res=0 
+258481 14:28:33.039896596 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258484 14:28:33.039897794 1 runc:[2:INIT] (27610) < futex res=1 
+258486 14:28:33.039898058 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258489 14:28:33.039899051 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258506 14:28:33.039905974 1 runc:[2:INIT] (27610) < futex res=0 
+258508 14:28:33.039907899 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258509 14:28:33.039908892 1 runc:[2:INIT] (27610) < futex res=1 
+258510 14:28:33.039909114 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258512 14:28:33.039910099 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258518 14:28:33.039914491 1 runc:[2:INIT] (27610) < futex res=0 
+258519 14:28:33.039915956 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258520 14:28:33.039916907 1 runc:[2:INIT] (27610) < futex res=1 
+258521 14:28:33.039917155 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258522 14:28:33.039917999 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258530 14:28:33.039923023 1 runc:[2:INIT] (27610) < futex res=0 
+258531 14:28:33.039924369 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258532 14:28:33.039925279 1 runc:[2:INIT] (27610) < futex res=1 
+258533 14:28:33.039925513 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258534 14:28:33.039928279 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258549 14:28:33.039935139 1 runc:[2:INIT] (27610) < futex res=0 
+258552 14:28:33.039936439 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258553 14:28:33.039937366 1 runc:[2:INIT] (27610) < futex res=1 
+258555 14:28:33.039937609 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258557 14:28:33.039938471 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258568 14:28:33.039943794 1 runc:[2:INIT] (27610) < futex res=0 
+258570 14:28:33.039944895 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258571 14:28:33.039945854 1 runc:[2:INIT] (27610) < futex res=1 
+258572 14:28:33.039946120 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258573 14:28:33.039947074 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258582 14:28:33.039952154 1 runc:[2:INIT] (27610) < futex res=0 
+258585 14:28:33.039953677 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258589 14:28:33.039954812 1 runc:[2:INIT] (27610) < futex res=1 
+258591 14:28:33.039955057 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258594 14:28:33.039956008 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258609 14:28:33.039960087 1 runc:[2:INIT] (27610) < futex res=0 
+258612 14:28:33.039961373 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258614 14:28:33.039962399 1 runc:[2:INIT] (27610) < futex res=1 
+258615 14:28:33.039962668 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258617 14:28:33.039963566 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258626 14:28:33.039970923 1 runc:[2:INIT] (27610) < futex res=0 
+258628 14:28:33.039972335 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258631 14:28:33.039973437 1 runc:[2:INIT] (27610) < futex res=1 
+258633 14:28:33.039973684 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258634 14:28:33.039974510 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258647 14:28:33.039978785 1 runc:[2:INIT] (27610) < futex res=0 
+258650 14:28:33.039980175 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258652 14:28:33.039981153 1 runc:[2:INIT] (27610) < futex res=1 
+258653 14:28:33.039981422 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258654 14:28:33.039982381 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258664 14:28:33.039986331 1 runc:[2:INIT] (27610) < futex res=0 
+258667 14:28:33.039987477 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258672 14:28:33.039988386 1 runc:[2:INIT] (27610) < futex res=1 
+258673 14:28:33.039988645 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258676 14:28:33.039989557 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258690 14:28:33.039995055 1 runc:[2:INIT] (27610) < futex res=0 
+258691 14:28:33.039997911 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258695 14:28:33.039998786 1 runc:[2:INIT] (27610) < futex res=1 
+258696 14:28:33.039999010 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258699 14:28:33.039999931 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258710 14:28:33.040005195 1 runc:[2:INIT] (27610) < futex res=0 
+258715 14:28:33.040006193 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258719 14:28:33.040007082 1 runc:[2:INIT] (27610) < futex res=1 
+258720 14:28:33.040007347 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258722 14:28:33.040008219 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258730 14:28:33.040013666 1 runc:[2:INIT] (27610) < futex res=0 
+258731 14:28:33.040015367 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258732 14:28:33.040016340 1 runc:[2:INIT] (27610) < futex res=1 
+258733 14:28:33.040016591 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258734 14:28:33.040017468 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258741 14:28:33.040023154 1 runc:[2:INIT] (27610) < futex res=0 
+258742 14:28:33.040024304 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258744 14:28:33.040025225 1 runc:[2:INIT] (27610) < futex res=1 
+258745 14:28:33.040025489 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258747 14:28:33.040026314 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258753 14:28:33.040033122 1 runc:[2:INIT] (27610) < futex res=0 
+258754 14:28:33.040034424 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258757 14:28:33.040035412 1 runc:[2:INIT] (27610) < futex res=1 
+258758 14:28:33.040035653 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258760 14:28:33.040036551 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258767 14:28:33.040042578 1 runc:[2:INIT] (27610) < futex res=0 
+258768 14:28:33.040043645 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258769 14:28:33.040044516 1 runc:[2:INIT] (27610) < futex res=1 
+258771 14:28:33.040044807 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258773 14:28:33.040045652 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258786 14:28:33.040054768 1 runc:[2:INIT] (27610) < futex res=0 
+258788 14:28:33.040056188 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258790 14:28:33.040057170 1 runc:[2:INIT] (27610) < futex res=1 
+258791 14:28:33.040057432 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258793 14:28:33.040058378 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258799 14:28:33.040062727 1 runc:[2:INIT] (27610) < futex res=0 
+258800 14:28:33.040064099 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258801 14:28:33.040064953 1 runc:[2:INIT] (27610) < futex res=1 
+258802 14:28:33.040065185 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258803 14:28:33.040070749 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258811 14:28:33.040078455 1 runc:[2:INIT] (27610) < futex res=0 
+258812 14:28:33.040079851 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258813 14:28:33.040080781 1 runc:[2:INIT] (27610) < futex res=1 
+258814 14:28:33.040081054 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258815 14:28:33.040081868 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258823 14:28:33.040086349 1 runc:[2:INIT] (27610) < futex res=0 
+258825 14:28:33.040087920 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258826 14:28:33.040088933 1 runc:[2:INIT] (27610) < futex res=1 
+258827 14:28:33.040089188 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258829 14:28:33.040090043 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258838 14:28:33.040096134 1 runc:[2:INIT] (27610) < futex res=0 
+258841 14:28:33.040097462 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258842 14:28:33.040098454 1 runc:[2:INIT] (27610) < futex res=1 
+258843 14:28:33.040098705 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258845 14:28:33.040099624 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258851 14:28:33.040105877 1 runc:[2:INIT] (27610) < futex res=0 
+258852 14:28:33.040107305 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258854 14:28:33.040108251 1 runc:[2:INIT] (27610) < futex res=1 
+258855 14:28:33.040108525 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258856 14:28:33.040109441 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258863 14:28:33.040116018 1 runc:[2:INIT] (27610) < futex res=0 
+258864 14:28:33.040117149 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258865 14:28:33.040118077 1 runc:[2:INIT] (27610) < futex res=1 
+258866 14:28:33.040118346 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258868 14:28:33.040119276 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258875 14:28:33.040126272 1 runc:[2:INIT] (27610) < futex res=0 
+258876 14:28:33.040127400 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258877 14:28:33.040128425 1 runc:[2:INIT] (27610) < futex res=1 
+258878 14:28:33.040128693 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258879 14:28:33.040129627 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258886 14:28:33.040134236 1 runc:[2:INIT] (27610) < futex res=0 
+258887 14:28:33.040135692 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258888 14:28:33.040140607 1 runc:[2:INIT] (27610) < futex res=1 
+258889 14:28:33.040140872 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258891 14:28:33.040141847 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258900 14:28:33.040147416 1 runc:[2:INIT] (27610) < futex res=0 
+258901 14:28:33.040148374 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258902 14:28:33.040149372 1 runc:[2:INIT] (27610) < futex res=1 
+258903 14:28:33.040149637 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258906 14:28:33.040150610 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258915 14:28:33.040155510 1 runc:[2:INIT] (27610) < futex res=0 
+258916 14:28:33.040157036 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258917 14:28:33.040158037 1 runc:[2:INIT] (27610) < futex res=1 
+258918 14:28:33.040158303 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258920 14:28:33.040161321 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+258926 14:28:33.040166337 1 runc:[2:INIT] (27610) < futex res=0 
+258927 14:28:33.040167259 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+258928 14:28:33.040168318 1 runc:[2:INIT] (27610) < futex res=1 
+258929 14:28:33.040168588 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+258930 14:28:33.040169546 1 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=4796 vm_swap=0 
+259860 14:28:33.041135322 0 runc:[2:INIT] (27609) < select res=0 
+259862 14:28:33.041136937 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+259870 14:28:33.041142135 0 runc:[2:INIT] (27609) > switch next=27612(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+259872 14:28:33.041145913 0 runc:[2:INIT] (27612) < select res=0 
+259874 14:28:33.041148812 0 runc:[2:INIT] (27612) > futex addr=AC6FE8 op=1(FUTEX_WAKE) val=1 
+259877 14:28:33.041149712 0 runc:[2:INIT] (27612) < futex res=1 
+259879 14:28:33.041150185 0 runc:[2:INIT] (27612) > futex addr=C42005C110 op=0(FUTEX_WAIT) val=0 
+259883 14:28:33.041152183 0 runc:[2:INIT] (27612) > switch next=3207(dockerd) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+259948 14:28:33.041196105 0 runc:[2:INIT] (27609) < futex res=0 
+259949 14:28:33.041197159 0 runc:[2:INIT] (27609) > select 
+259952 14:28:33.041199192 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=4796 vm_swap=0 
+259990 14:28:33.041237174 0 runc:[2:INIT] (27609) < select res=0 
+259991 14:28:33.041237895 0 runc:[2:INIT] (27609) > select 
+259997 14:28:33.041239927 0 runc:[2:INIT] (27609) > switch next=3207(dockerd) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260061 14:28:33.041314701 0 runc:[2:INIT] (27609) < select res=0 
+260062 14:28:33.041315495 0 runc:[2:INIT] (27609) > select 
+260063 14:28:33.041317382 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260098 14:28:33.041389999 0 runc:[2:INIT] (27609) < select res=0 
+260100 14:28:33.041390711 0 runc:[2:INIT] (27609) > select 
+260101 14:28:33.041392587 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260125 14:28:33.041464230 0 runc:[2:INIT] (27609) < select res=0 
+260126 14:28:33.041464642 0 runc:[2:INIT] (27609) > select 
+260127 14:28:33.041466071 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260207 14:28:33.041598272 0 runc:[2:INIT] (27609) < select res=0 
+260208 14:28:33.041599038 0 runc:[2:INIT] (27609) > select 
+260210 14:28:33.041601453 0 runc:[2:INIT] (27609) > switch next=27613(systemd-udevd) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260451 14:28:33.042203734 0 runc:[2:INIT] (27609) < select res=0 
+260458 14:28:33.042210302 0 runc:[2:INIT] (27609) > select 
+260464 14:28:33.042213179 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260504 14:28:33.042268590 0 runc:[2:INIT] (27609) < select res=0 
+260506 14:28:33.042269086 0 runc:[2:INIT] (27609) > select 
+260511 14:28:33.042270893 0 runc:[2:INIT] (27609) > switch next=27592(docker-containe) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260581 14:28:33.042343964 0 runc:[2:INIT] (27609) < select res=0 
+260582 14:28:33.042344672 0 runc:[2:INIT] (27609) > select 
+260583 14:28:33.042346712 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260585 14:28:33.042418083 0 runc:[2:INIT] (27609) < select res=0 
+260586 14:28:33.042418508 0 runc:[2:INIT] (27609) > select 
+260587 14:28:33.042419953 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260589 14:28:33.042491582 0 runc:[2:INIT] (27609) < select res=0 
+260590 14:28:33.042491980 0 runc:[2:INIT] (27609) > select 
+260591 14:28:33.042493396 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260593 14:28:33.042564986 0 runc:[2:INIT] (27609) < select res=0 
+260594 14:28:33.042565345 0 runc:[2:INIT] (27609) > select 
+260595 14:28:33.042566636 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260598 14:28:33.042649425 0 runc:[2:INIT] (27609) < select res=0 
+260599 14:28:33.042649938 0 runc:[2:INIT] (27609) > select 
+260601 14:28:33.042652139 0 runc:[2:INIT] (27609) > switch next=27618(systemd-udevd) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260618 14:28:33.042725222 2 runc:[2:INIT] (27609) < select res=0 
+260619 14:28:33.042726508 2 runc:[2:INIT] (27609) > select 
+260620 14:28:33.042728840 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260631 14:28:33.042798990 2 runc:[2:INIT] (27609) < select res=0 
+260632 14:28:33.042799251 2 runc:[2:INIT] (27609) > select 
+260633 14:28:33.042800137 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260635 14:28:33.042871060 2 runc:[2:INIT] (27609) < select res=0 
+260636 14:28:33.042871279 2 runc:[2:INIT] (27609) > select 
+260637 14:28:33.042872065 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260649 14:28:33.042944368 2 runc:[2:INIT] (27609) < select res=0 
+260650 14:28:33.042944743 2 runc:[2:INIT] (27609) > select 
+260651 14:28:33.042946528 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=5856 vm_swap=0 
+260673 14:28:33.043018070 2 runc:[2:INIT] (27609) < select res=0 
+260674 14:28:33.043018778 2 runc:[2:INIT] (27609) > select 
+260675 14:28:33.043020086 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260696 14:28:33.043093908 3 runc:[2:INIT] (27609) < select res=0 
+260699 14:28:33.043094876 3 runc:[2:INIT] (27609) > select 
+260700 14:28:33.043097216 3 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260734 14:28:33.043172033 2 runc:[2:INIT] (27609) < select res=0 
+260735 14:28:33.043172862 2 runc:[2:INIT] (27609) > select 
+260737 14:28:33.043175028 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260767 14:28:33.043246957 2 runc:[2:INIT] (27609) < select res=0 
+260768 14:28:33.043248506 2 runc:[2:INIT] (27609) > futex addr=C42005C110 op=1(FUTEX_WAKE) val=1 
+260769 14:28:33.043252440 2 runc:[2:INIT] (27609) < futex res=1 
+260770 14:28:33.043252938 2 runc:[2:INIT] (27609) > select 
+260772 14:28:33.043254732 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260774 14:28:33.043255554 0 runc:[2:INIT] (27612) < futex res=0 
+260777 14:28:33.043262225 0 runc:[2:INIT] (27612) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+260778 14:28:33.043266273 0 runc:[2:INIT] (27612) < futex res=1 
+260779 14:28:33.043266635 0 runc:[2:INIT] (27612) > futex addr=AE22C0 op=0(FUTEX_WAIT) val=0 
+260781 14:28:33.043267833 2 runc:[2:INIT] (27610) < futex res=0 
+260782 14:28:33.043268919 0 runc:[2:INIT] (27612) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260783 14:28:33.043269256 2 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+260784 14:28:33.043270222 2 runc:[2:INIT] (27610) < futex res=1 
+260785 14:28:33.043270850 2 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+260788 14:28:33.043272427 2 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=115984 vm_rss=6164 vm_swap=0 
+260799 14:28:33.043327210 2 runc:[2:INIT] (27609) < select res=0 
+260800 14:28:33.043327776 2 runc:[2:INIT] (27609) > select 
+260801 14:28:33.043331866 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260818 14:28:33.043403250 2 runc:[2:INIT] (27609) < select res=0 
+260819 14:28:33.043404129 2 runc:[2:INIT] (27609) > select 
+260820 14:28:33.043405600 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260859 14:28:33.043478170 2 runc:[2:INIT] (27609) < select res=0 
+260861 14:28:33.043478735 2 runc:[2:INIT] (27609) > select 
+260862 14:28:33.043480370 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260873 14:28:33.043552043 2 runc:[2:INIT] (27609) < select res=0 
+260874 14:28:33.043552602 2 runc:[2:INIT] (27609) > select 
+260875 14:28:33.043554083 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260913 14:28:33.043625557 2 runc:[2:INIT] (27609) < select res=0 
+260915 14:28:33.043625947 2 runc:[2:INIT] (27609) > select 
+260917 14:28:33.043627238 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+260977 14:28:33.043699039 2 runc:[2:INIT] (27609) < select res=0 
+260978 14:28:33.043699477 2 runc:[2:INIT] (27609) > select 
+260982 14:28:33.043700840 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261027 14:28:33.043772455 2 runc:[2:INIT] (27609) < select res=0 
+261028 14:28:33.043772833 2 runc:[2:INIT] (27609) > select 
+261030 14:28:33.043774242 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261058 14:28:33.043847008 2 runc:[2:INIT] (27609) < select res=0 
+261059 14:28:33.043847568 2 runc:[2:INIT] (27609) > select 
+261060 14:28:33.043849164 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261092 14:28:33.043921268 2 runc:[2:INIT] (27609) < select res=0 
+261093 14:28:33.043922050 2 runc:[2:INIT] (27609) > select 
+261094 14:28:33.043923417 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261169 14:28:33.044040511 2 runc:[2:INIT] (27609) < select res=0 
+261171 14:28:33.044041107 2 runc:[2:INIT] (27609) > select 
+261175 14:28:33.044043576 2 runc:[2:INIT] (27609) > switch next=1293(vmware-usbarbit) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261227 14:28:33.044115520 2 runc:[2:INIT] (27609) < select res=0 
+261228 14:28:33.044116394 2 runc:[2:INIT] (27609) > select 
+261229 14:28:33.044117868 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261249 14:28:33.044216032 2 runc:[2:INIT] (27609) < select res=0 
+261250 14:28:33.044216983 2 runc:[2:INIT] (27609) > select 
+261252 14:28:33.044219173 2 runc:[2:INIT] (27609) > switch next=1293(vmware-usbarbit) pgft_maj=0 pgft_min=0 vm_size=115984 vm_rss=6164 vm_swap=0 
+261558 14:28:33.044708691 2 runc:[2:INIT] (27609) < select res=0 
+261560 14:28:33.044709676 2 runc:[2:INIT] (27609) > select 
+261566 14:28:33.044712937 2 runc:[2:INIT] (27609) > switch next=25577(AudioOutputDevi) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+261968 14:28:33.045146920 2 runc:[2:INIT] (27609) < select res=0 
+261970 14:28:33.045148019 2 runc:[2:INIT] (27609) > select 
+261977 14:28:33.045151024 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262169 14:28:33.045524054 2 runc:[2:INIT] (27609) < select res=0 
+262171 14:28:33.045525087 2 runc:[2:INIT] (27609) > select 
+262179 14:28:33.045527958 2 runc:[2:INIT] (27609) > switch next=25662 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262216 14:28:33.045600109 2 runc:[2:INIT] (27609) < select res=0 
+262217 14:28:33.045600723 2 runc:[2:INIT] (27609) > select 
+262218 14:28:33.045602528 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262251 14:28:33.045674361 2 runc:[2:INIT] (27609) < select res=0 
+262252 14:28:33.045674935 2 runc:[2:INIT] (27609) > select 
+262254 14:28:33.045676542 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262282 14:28:33.045750828 2 runc:[2:INIT] (27609) < select res=0 
+262284 14:28:33.045751281 2 runc:[2:INIT] (27609) > select 
+262285 14:28:33.045752893 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262313 14:28:33.045824963 2 runc:[2:INIT] (27609) < select res=0 
+262314 14:28:33.045825448 2 runc:[2:INIT] (27609) > select 
+262315 14:28:33.045827015 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262339 14:28:33.045899286 2 runc:[2:INIT] (27609) < select res=0 
+262340 14:28:33.045899807 2 runc:[2:INIT] (27609) > select 
+262341 14:28:33.045901379 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262372 14:28:33.045973361 2 runc:[2:INIT] (27609) < select res=0 
+262373 14:28:33.045973855 2 runc:[2:INIT] (27609) > select 
+262374 14:28:33.045975400 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262391 14:28:33.046047745 2 runc:[2:INIT] (27609) < select res=0 
+262392 14:28:33.046048401 2 runc:[2:INIT] (27609) > select 
+262393 14:28:33.046049981 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262412 14:28:33.046122211 2 runc:[2:INIT] (27609) < select res=0 
+262413 14:28:33.046122697 2 runc:[2:INIT] (27609) > select 
+262414 14:28:33.046124363 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262440 14:28:33.046198676 2 runc:[2:INIT] (27609) < select res=0 
+262441 14:28:33.046199204 2 runc:[2:INIT] (27609) > select 
+262443 14:28:33.046200897 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262474 14:28:33.046273325 2 runc:[2:INIT] (27609) < select res=0 
+262475 14:28:33.046273901 2 runc:[2:INIT] (27609) > select 
+262477 14:28:33.046275614 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262552 14:28:33.046383124 0 runc:[2:INIT] (27609) < select res=0 
+262553 14:28:33.046384356 0 runc:[2:INIT] (27609) > select 
+262557 14:28:33.046387690 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262662 14:28:33.046729769 0 runc:[2:INIT] (27609) < select res=0 
+262664 14:28:33.046730796 0 runc:[2:INIT] (27609) > select 
+262666 14:28:33.046733109 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+262926 14:28:33.047238536 0 runc:[2:INIT] (27609) < select res=0 
+262929 14:28:33.047240727 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+262933 14:28:33.047245887 0 runc:[2:INIT] (27609) < futex res=1 
+262934 14:28:33.047246432 0 runc:[2:INIT] (27609) > select 
+262938 14:28:33.047249244 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+263307 14:28:33.047797744 0 runc:[2:INIT] (27609) < select res=0 
+263308 14:28:33.047799979 0 runc:[2:INIT] (27609) > select 
+263314 14:28:33.047803546 0 runc:[2:INIT] (27609) > switch next=27624(systemd-udevd) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+263315 14:28:33.047804673 2 runc:[2:INIT] (27610) < futex res=0 
+263319 14:28:33.047808798 2 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+263320 14:28:33.047811721 2 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+263615 14:28:33.048286024 0 runc:[2:INIT] (27609) < select res=0 
+263616 14:28:33.048288133 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+263617 14:28:33.048291219 0 runc:[2:INIT] (27609) > switch next=27624(systemd-udevd) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281700 14:28:33.145495672 3 runc:[2:INIT] (27609) < futex res=0 
+281701 14:28:33.145501037 3 runc:[2:INIT] (27609) > select 
+281704 14:28:33.145511298 3 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281718 14:28:33.145577750 3 runc:[2:INIT] (27609) < select res=0 
+281719 14:28:33.145578880 3 runc:[2:INIT] (27609) > select 
+281722 14:28:33.145590225 3 runc:[2:INIT] (27609) > switch next=5997(Chrome_FileThre) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281768 14:28:33.145702558 3 runc:[2:INIT] (27609) < select res=0 
+281774 14:28:33.145708053 3 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+281779 14:28:33.145713090 3 runc:[2:INIT] (27609) < futex res=1 
+281780 14:28:33.145713480 3 runc:[2:INIT] (27609) > select 
+281788 14:28:33.145726275 3 runc:[2:INIT] (27609) > switch next=805(Compositor) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281801 14:28:33.145750347 3 runc:[2:INIT] (27610) < futex res=0 
+281803 14:28:33.145751845 3 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+281805 14:28:33.145752236 3 runc:[2:INIT] (27610) < futex res=0 
+281806 14:28:33.145752546 3 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+281810 14:28:33.145759956 3 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+281823 14:28:33.145787798 3 runc:[2:INIT] (27609) < select res=0 
+281825 14:28:33.145788354 3 runc:[2:INIT] (27609) > select 
+281828 14:28:33.145795519 3 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281879 14:28:33.145862551 3 runc:[2:INIT] (27609) < select res=0 
+281884 14:28:33.145863610 3 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+281889 14:28:33.145865244 3 runc:[2:INIT] (27609) < futex res=1 
+281891 14:28:33.145865573 3 runc:[2:INIT] (27609) > select 
+281894 14:28:33.145867290 3 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+281895 14:28:33.145867890 3 runc:[2:INIT] (27610) < futex res=0 
+281898 14:28:33.145868862 3 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+281905 14:28:33.145874486 3 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+281916 14:28:33.145940683 3 runc:[2:INIT] (27609) < select res=0 
+281918 14:28:33.145941332 3 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+281921 14:28:33.145943783 3 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283230 14:28:33.162792998 0 runc:[2:INIT] (27609) < futex res=0 
+283233 14:28:33.162796643 0 runc:[2:INIT] (27609) > select 
+283244 14:28:33.162814327 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283301 14:28:33.162877597 0 runc:[2:INIT] (27609) < select res=0 
+283303 14:28:33.162878919 0 runc:[2:INIT] (27609) > select 
+283306 14:28:33.162890568 0 runc:[2:INIT] (27609) > switch next=424(systemd-journal) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283348 14:28:33.162955876 0 runc:[2:INIT] (27609) < select res=0 
+283351 14:28:33.162958569 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+283355 14:28:33.162964640 0 runc:[2:INIT] (27609) < futex res=1 
+283356 14:28:33.162966745 0 runc:[2:INIT] (27609) > select 
+283357 14:28:33.162970243 0 runc:[2:INIT] (27609) > switch next=793(Compositor) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283365 14:28:33.162976695 3 runc:[2:INIT] (27610) < futex res=0 
+283368 14:28:33.162980931 3 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+283369 14:28:33.162988400 3 runc:[2:INIT] (27610) > switch next=27608(runc:[1:CHILD]) pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+283383 14:28:33.163045600 1 runc:[2:INIT] (27609) < select res=0 
+283384 14:28:33.163047448 1 runc:[2:INIT] (27609) > select 
+283390 14:28:33.163065224 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283412 14:28:33.163127284 1 runc:[2:INIT] (27609) < select res=0 
+283414 14:28:33.163128699 1 runc:[2:INIT] (27609) > select 
+283419 14:28:33.163141203 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283441 14:28:33.163211902 1 runc:[2:INIT] (27609) < select res=0 
+283442 14:28:33.163216490 1 runc:[2:INIT] (27609) > select 
+283443 14:28:33.163220150 1 runc:[2:INIT] (27609) > switch next=791(Chrome_ChildIOT) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283477 14:28:33.163294053 1 runc:[2:INIT] (27609) < select res=0 
+283479 14:28:33.163297365 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+283480 14:28:33.163302239 1 runc:[2:INIT] (27609) < futex res=1 
+283481 14:28:33.163303001 1 runc:[2:INIT] (27609) > select 
+283483 14:28:33.163306435 1 runc:[2:INIT] (27609) > switch next=617(Chrome_IOThread) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+283484 14:28:33.163306706 2 runc:[2:INIT] (27610) < futex res=0 
+283485 14:28:33.163309466 2 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+283490 14:28:33.163328167 2 runc:[2:INIT] (27610) > switch next=590(slack) pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+283505 14:28:33.163383723 1 runc:[2:INIT] (27609) < select res=0 
+283506 14:28:33.163385636 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+283507 14:28:33.163391072 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284019 14:28:33.178959089 1 runc:[2:INIT] (27609) < futex res=0 
+284021 14:28:33.178963854 1 runc:[2:INIT] (27609) > select 
+284026 14:28:33.178988877 1 runc:[2:INIT] (27609) > switch next=805(Compositor) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284038 14:28:33.179051295 1 runc:[2:INIT] (27609) < select res=0 
+284039 14:28:33.179055044 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284042 14:28:33.179062123 1 runc:[2:INIT] (27609) < futex res=1 
+284043 14:28:33.179063148 1 runc:[2:INIT] (27609) > select 
+284046 14:28:33.179082003 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284047 14:28:33.179084248 1 runc:[2:INIT] (27610) < futex res=0 
+284049 14:28:33.179087807 1 runc:[2:INIT] (27610) > futex addr=AC7870 op=1(FUTEX_WAKE) val=1 
+284050 14:28:33.179092976 1 runc:[2:INIT] (27610) < futex res=1 
+284051 14:28:33.179093939 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284053 14:28:33.179098948 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+284061 14:28:33.179141987 1 runc:[2:INIT] (27609) < select res=0 
+284062 14:28:33.179143029 1 runc:[2:INIT] (27609) > select 
+284063 14:28:33.179146382 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284102 14:28:33.179223041 1 runc:[2:INIT] (27609) < select res=0 
+284104 14:28:33.179224588 1 runc:[2:INIT] (27609) > select 
+284108 14:28:33.179228608 1 runc:[2:INIT] (27609) > switch next=617(Chrome_IOThread) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284142 14:28:33.179301668 1 runc:[2:INIT] (27609) < select res=0 
+284143 14:28:33.179303859 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284145 14:28:33.179307422 1 runc:[2:INIT] (27609) < futex res=1 
+284147 14:28:33.179308372 1 runc:[2:INIT] (27609) > select 
+284150 14:28:33.179312284 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284151 14:28:33.179313704 1 runc:[2:INIT] (27610) < futex res=0 
+284154 14:28:33.179319226 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284155 14:28:33.179322233 1 runc:[2:INIT] (27610) > switch next=617(Chrome_IOThread) pgft_maj=0 pgft_min=10 vm_size=117040 vm_rss=6164 vm_swap=0 
+284198 14:28:33.179386214 1 runc:[2:INIT] (27609) < select res=0 
+284200 14:28:33.179388238 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+284204 14:28:33.179392984 1 runc:[2:INIT] (27609) > switch next=805(Compositor) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6164 vm_swap=0 
+284514 14:28:33.180346264 1 runc:[2:INIT] (27609) < futex res=0 
+284517 14:28:33.180349386 1 runc:[2:INIT] (27609) > select 
+284519 14:28:33.180377075 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284524 14:28:33.180431467 1 runc:[2:INIT] (27609) < select res=0 
+284525 14:28:33.180432710 1 runc:[2:INIT] (27609) > select 
+284527 14:28:33.180435937 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284540 14:28:33.180511043 1 runc:[2:INIT] (27609) < select res=0 
+284541 14:28:33.180512453 1 runc:[2:INIT] (27609) > select 
+284543 14:28:33.180516099 1 runc:[2:INIT] (27609) > switch next=617(Chrome_IOThread) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284582 14:28:33.180589588 1 runc:[2:INIT] (27609) < select res=0 
+284584 14:28:33.180591475 1 runc:[2:INIT] (27609) > select 
+284585 14:28:33.180594587 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284623 14:28:33.180671436 1 runc:[2:INIT] (27609) < select res=0 
+284625 14:28:33.180672980 1 runc:[2:INIT] (27609) > select 
+284627 14:28:33.180676107 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284641 14:28:33.180754370 1 runc:[2:INIT] (27609) < select res=0 
+284642 14:28:33.180764400 1 runc:[2:INIT] (27609) > select 
+284644 14:28:33.180768462 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284657 14:28:33.180844655 1 runc:[2:INIT] (27609) < select res=0 
+284660 14:28:33.180845667 1 runc:[2:INIT] (27609) > select 
+284661 14:28:33.180849085 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284691 14:28:33.180928804 1 runc:[2:INIT] (27609) < select res=0 
+284693 14:28:33.180930475 1 runc:[2:INIT] (27609) > select 
+284696 14:28:33.180934598 1 runc:[2:INIT] (27609) > switch next=802(slack) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284705 14:28:33.181010279 1 runc:[2:INIT] (27609) < select res=0 
+284706 14:28:33.181011825 1 runc:[2:INIT] (27609) > select 
+284707 14:28:33.181015457 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284713 14:28:33.181089909 1 runc:[2:INIT] (27609) < select res=0 
+284714 14:28:33.181091027 1 runc:[2:INIT] (27609) > select 
+284715 14:28:33.181094432 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284721 14:28:33.181168994 1 runc:[2:INIT] (27609) < select res=0 
+284722 14:28:33.181170003 1 runc:[2:INIT] (27609) > select 
+284723 14:28:33.181173294 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284729 14:28:33.181248179 1 runc:[2:INIT] (27609) < select res=0 
+284730 14:28:33.181249138 1 runc:[2:INIT] (27609) > select 
+284731 14:28:33.181252516 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284737 14:28:33.181329423 1 runc:[2:INIT] (27609) < select res=0 
+284738 14:28:33.181330425 1 runc:[2:INIT] (27609) > select 
+284739 14:28:33.181333615 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284745 14:28:33.181409580 1 runc:[2:INIT] (27609) < select res=0 
+284746 14:28:33.181410476 1 runc:[2:INIT] (27609) > select 
+284747 14:28:33.181413713 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284753 14:28:33.181487694 1 runc:[2:INIT] (27609) < select res=0 
+284754 14:28:33.181490129 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284756 14:28:33.181495782 1 runc:[2:INIT] (27609) < futex res=1 
+284757 14:28:33.181496587 1 runc:[2:INIT] (27609) > select 
+284758 14:28:33.181500453 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117040 vm_rss=6596 vm_swap=0 
+284759 14:28:33.181502323 1 runc:[2:INIT] (27610) < futex res=0 
+284761 14:28:33.181505851 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284762 14:28:33.181511675 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117172 vm_rss=6596 vm_swap=0 
+284768 14:28:33.181574900 1 runc:[2:INIT] (27609) < select res=0 
+284769 14:28:33.181576287 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+284770 14:28:33.181580644 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284776 14:28:33.181631234 1 runc:[2:INIT] (27609) < futex res=0 
+284778 14:28:33.181632901 1 runc:[2:INIT] (27609) > select 
+284780 14:28:33.181636191 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284785 14:28:33.181712918 1 runc:[2:INIT] (27609) < select res=0 
+284786 14:28:33.181714070 1 runc:[2:INIT] (27609) > select 
+284788 14:28:33.181717211 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284793 14:28:33.181792478 1 runc:[2:INIT] (27609) < select res=0 
+284794 14:28:33.181793403 1 runc:[2:INIT] (27609) > select 
+284796 14:28:33.181796360 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284801 14:28:33.181871536 1 runc:[2:INIT] (27609) < select res=0 
+284802 14:28:33.181873267 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284804 14:28:33.181876875 1 runc:[2:INIT] (27609) < futex res=1 
+284805 14:28:33.181877857 1 runc:[2:INIT] (27609) > select 
+284806 14:28:33.181881489 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284807 14:28:33.181882708 1 runc:[2:INIT] (27610) < futex res=0 
+284808 14:28:33.181884342 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284809 14:28:33.181886775 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117172 vm_rss=6596 vm_swap=0 
+284815 14:28:33.181956502 1 runc:[2:INIT] (27609) < select res=0 
+284816 14:28:33.181957641 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+284817 14:28:33.181961062 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284821 14:28:33.182008745 1 runc:[2:INIT] (27609) < futex res=0 
+284822 14:28:33.182010051 1 runc:[2:INIT] (27609) > select 
+284823 14:28:33.182013162 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284829 14:28:33.182090109 1 runc:[2:INIT] (27609) < select res=0 
+284830 14:28:33.182091546 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284831 14:28:33.182094285 1 runc:[2:INIT] (27609) < futex res=1 
+284832 14:28:33.182094986 1 runc:[2:INIT] (27609) > select 
+284833 14:28:33.182098699 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284834 14:28:33.182099928 1 runc:[2:INIT] (27610) < futex res=0 
+284835 14:28:33.182101345 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284836 14:28:33.182103643 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117172 vm_rss=6596 vm_swap=0 
+284842 14:28:33.182173063 1 runc:[2:INIT] (27609) < select res=0 
+284843 14:28:33.182174229 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+284844 14:28:33.182177543 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284852 14:28:33.182217365 1 runc:[2:INIT] (27609) < futex res=0 
+284853 14:28:33.182218691 1 runc:[2:INIT] (27609) > select 
+284854 14:28:33.182221838 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284860 14:28:33.182296901 1 runc:[2:INIT] (27609) < select res=0 
+284861 14:28:33.182298087 1 runc:[2:INIT] (27609) > select 
+284862 14:28:33.182300940 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284868 14:28:33.182377657 1 runc:[2:INIT] (27609) < select res=0 
+284869 14:28:33.182378879 1 runc:[2:INIT] (27609) > select 
+284870 14:28:33.182387222 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284876 14:28:33.182458156 1 runc:[2:INIT] (27609) < select res=0 
+284877 14:28:33.182459191 1 runc:[2:INIT] (27609) > select 
+284878 14:28:33.182462542 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284886 14:28:33.182538300 1 runc:[2:INIT] (27609) < select res=0 
+284887 14:28:33.182539342 1 runc:[2:INIT] (27609) > select 
+284888 14:28:33.182542720 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284894 14:28:33.182622159 1 runc:[2:INIT] (27609) < select res=0 
+284895 14:28:33.182624167 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+284896 14:28:33.182627992 1 runc:[2:INIT] (27609) < futex res=1 
+284897 14:28:33.182628898 1 runc:[2:INIT] (27609) > select 
+284898 14:28:33.182632537 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284899 14:28:33.182633846 1 runc:[2:INIT] (27610) < futex res=0 
+284900 14:28:33.182635426 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+284901 14:28:33.182638066 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117172 vm_rss=6596 vm_swap=0 
+284909 14:28:33.182710399 1 runc:[2:INIT] (27609) < select res=0 
+284910 14:28:33.182711769 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+284911 14:28:33.182716052 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284927 14:28:33.182904993 1 runc:[2:INIT] (27609) < futex res=0 
+284928 14:28:33.182906417 1 runc:[2:INIT] (27609) > select 
+284929 14:28:33.182910399 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284935 14:28:33.182984770 1 runc:[2:INIT] (27609) < select res=0 
+284936 14:28:33.182985829 1 runc:[2:INIT] (27609) > select 
+284937 14:28:33.182989040 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284943 14:28:33.183064025 1 runc:[2:INIT] (27609) < select res=0 
+284944 14:28:33.183065048 1 runc:[2:INIT] (27609) > select 
+284945 14:28:33.183068162 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284951 14:28:33.183143091 1 runc:[2:INIT] (27609) < select res=0 
+284952 14:28:33.183144187 1 runc:[2:INIT] (27609) > select 
+284953 14:28:33.183147487 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284959 14:28:33.183222023 1 runc:[2:INIT] (27609) < select res=0 
+284960 14:28:33.183222995 1 runc:[2:INIT] (27609) > select 
+284961 14:28:33.183226168 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284967 14:28:33.183302764 1 runc:[2:INIT] (27609) < select res=0 
+284968 14:28:33.183303740 1 runc:[2:INIT] (27609) > select 
+284969 14:28:33.183307098 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284975 14:28:33.183381853 1 runc:[2:INIT] (27609) < select res=0 
+284976 14:28:33.183382825 1 runc:[2:INIT] (27609) > select 
+284977 14:28:33.183386030 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284979 14:28:33.183460725 1 runc:[2:INIT] (27609) < select res=0 
+284980 14:28:33.183462031 1 runc:[2:INIT] (27609) > select 
+284981 14:28:33.183465158 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284987 14:28:33.183540254 1 runc:[2:INIT] (27609) < select res=0 
+284988 14:28:33.183541257 1 runc:[2:INIT] (27609) > select 
+284989 14:28:33.183544625 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284995 14:28:33.183622454 1 runc:[2:INIT] (27609) < select res=0 
+284996 14:28:33.183623422 1 runc:[2:INIT] (27609) > select 
+284997 14:28:33.183626593 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+284999 14:28:33.183701338 1 runc:[2:INIT] (27609) < select res=0 
+285000 14:28:33.183702293 1 runc:[2:INIT] (27609) > select 
+285001 14:28:33.183705464 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+285003 14:28:33.183780209 1 runc:[2:INIT] (27609) < select res=0 
+285004 14:28:33.183781152 1 runc:[2:INIT] (27609) > select 
+285005 14:28:33.183784289 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+285011 14:28:33.183859422 1 runc:[2:INIT] (27609) < select res=0 
+285012 14:28:33.183860301 1 runc:[2:INIT] (27609) > select 
+285013 14:28:33.183863618 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+285026 14:28:33.183951816 1 runc:[2:INIT] (27609) < select res=0 
+285027 14:28:33.183953134 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285029 14:28:33.183955475 1 runc:[2:INIT] (27609) < futex res=1 
+285031 14:28:33.183955900 1 runc:[2:INIT] (27609) > select 
+285033 14:28:33.183958042 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=6596 vm_swap=0 
+285034 14:28:33.183958821 1 runc:[2:INIT] (27610) < futex res=0 
+285035 14:28:33.183959697 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285037 14:28:33.183961503 1 runc:[2:INIT] (27610) > switch next=5771(pulseaudio) pgft_maj=0 pgft_min=10 vm_size=117172 vm_rss=6596 vm_swap=0 
+285060 14:28:33.184031480 1 runc:[2:INIT] (27609) < select res=0 
+285062 14:28:33.184032586 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285063 14:28:33.184034989 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117172 vm_rss=7016 vm_swap=0 
+285136 14:28:33.184301007 1 runc:[2:INIT] (27609) < futex res=0 
+285137 14:28:33.184302613 1 runc:[2:INIT] (27609) > select 
+285138 14:28:33.184305421 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285140 14:28:33.184378312 1 runc:[2:INIT] (27609) < select res=0 
+285141 14:28:33.184378866 1 runc:[2:INIT] (27609) > select 
+285142 14:28:33.184380815 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285144 14:28:33.184453708 1 runc:[2:INIT] (27609) < select res=0 
+285145 14:28:33.184454768 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285146 14:28:33.184457116 1 runc:[2:INIT] (27609) < futex res=1 
+285147 14:28:33.184457562 1 runc:[2:INIT] (27609) > select 
+285148 14:28:33.184459744 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285149 14:28:33.184460501 1 runc:[2:INIT] (27610) < futex res=0 
+285150 14:28:33.184461821 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285151 14:28:33.184463411 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117304 vm_rss=7016 vm_swap=0 
+285153 14:28:33.184532544 1 runc:[2:INIT] (27609) < select res=0 
+285154 14:28:33.184533219 1 runc:[2:INIT] (27609) > select 
+285155 14:28:33.184535065 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285157 14:28:33.184607960 1 runc:[2:INIT] (27609) < select res=0 
+285158 14:28:33.184608881 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285159 14:28:33.184610640 1 runc:[2:INIT] (27609) < futex res=1 
+285160 14:28:33.184611053 1 runc:[2:INIT] (27609) > select 
+285161 14:28:33.184613208 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285162 14:28:33.184613889 1 runc:[2:INIT] (27610) < futex res=0 
+285163 14:28:33.184614760 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285164 14:28:33.184616210 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117304 vm_rss=7016 vm_swap=0 
+285166 14:28:33.184685921 1 runc:[2:INIT] (27609) < select res=0 
+285167 14:28:33.184686650 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285168 14:28:33.184688950 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285172 14:28:33.184758203 1 runc:[2:INIT] (27609) < futex res=0 
+285173 14:28:33.184759234 1 runc:[2:INIT] (27609) > select 
+285174 14:28:33.184761939 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285176 14:28:33.184834527 1 runc:[2:INIT] (27609) < select res=0 
+285177 14:28:33.184835437 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285178 14:28:33.184837409 1 runc:[2:INIT] (27609) < futex res=1 
+285179 14:28:33.184837883 1 runc:[2:INIT] (27609) > select 
+285180 14:28:33.184839954 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285181 14:28:33.184840717 1 runc:[2:INIT] (27610) < futex res=0 
+285182 14:28:33.184841641 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285183 14:28:33.184843049 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117304 vm_rss=7016 vm_swap=0 
+285186 14:28:33.184912763 1 runc:[2:INIT] (27609) < select res=0 
+285187 14:28:33.184913424 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285190 14:28:33.184916087 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285195 14:28:33.184991539 1 runc:[2:INIT] (27609) < futex res=0 
+285196 14:28:33.184992249 1 runc:[2:INIT] (27609) > select 
+285197 14:28:33.184994193 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285199 14:28:33.185067075 1 runc:[2:INIT] (27609) < select res=0 
+285200 14:28:33.185067778 1 runc:[2:INIT] (27609) > select 
+285201 14:28:33.185069724 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285203 14:28:33.185142261 1 runc:[2:INIT] (27609) < select res=0 
+285204 14:28:33.185142901 1 runc:[2:INIT] (27609) > select 
+285205 14:28:33.185144816 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285207 14:28:33.185217487 1 runc:[2:INIT] (27609) < select res=0 
+285208 14:28:33.185218043 1 runc:[2:INIT] (27609) > select 
+285209 14:28:33.185219905 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285211 14:28:33.185292559 1 runc:[2:INIT] (27609) < select res=0 
+285212 14:28:33.185293119 1 runc:[2:INIT] (27609) > select 
+285213 14:28:33.185295084 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285215 14:28:33.185367671 1 runc:[2:INIT] (27609) < select res=0 
+285216 14:28:33.185368229 1 runc:[2:INIT] (27609) > select 
+285217 14:28:33.185370153 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285219 14:28:33.185442757 1 runc:[2:INIT] (27609) < select res=0 
+285220 14:28:33.185443665 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285221 14:28:33.185445448 1 runc:[2:INIT] (27609) < futex res=1 
+285222 14:28:33.185445870 1 runc:[2:INIT] (27609) > select 
+285223 14:28:33.185447890 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285224 14:28:33.185448808 1 runc:[2:INIT] (27610) < futex res=0 
+285225 14:28:33.185449610 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285226 14:28:33.185451065 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117304 vm_rss=7016 vm_swap=0 
+285228 14:28:33.185520721 1 runc:[2:INIT] (27609) < select res=0 
+285229 14:28:33.185521301 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285230 14:28:33.185523267 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117304 vm_rss=7016 vm_swap=0 
+285236 14:28:33.185651685 1 runc:[2:INIT] (27609) < futex res=0 
+285237 14:28:33.185652604 1 runc:[2:INIT] (27609) > select 
+285238 14:28:33.185654722 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285240 14:28:33.185727363 1 runc:[2:INIT] (27609) < select res=0 
+285241 14:28:33.185727981 1 runc:[2:INIT] (27609) > select 
+285242 14:28:33.185729861 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285244 14:28:33.185802455 1 runc:[2:INIT] (27609) < select res=0 
+285245 14:28:33.185803350 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285246 14:28:33.185805186 1 runc:[2:INIT] (27609) < futex res=1 
+285247 14:28:33.185805639 1 runc:[2:INIT] (27609) > select 
+285248 14:28:33.185807703 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285249 14:28:33.185808642 1 runc:[2:INIT] (27610) < futex res=0 
+285250 14:28:33.185809433 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285251 14:28:33.185810867 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285253 14:28:33.185880600 1 runc:[2:INIT] (27609) < select res=0 
+285254 14:28:33.185881287 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285255 14:28:33.185883471 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285259 14:28:33.185974298 1 runc:[2:INIT] (27609) < futex res=0 
+285260 14:28:33.185975060 1 runc:[2:INIT] (27609) > select 
+285261 14:28:33.185977100 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285263 14:28:33.186050082 1 runc:[2:INIT] (27609) < select res=0 
+285264 14:28:33.186050922 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285265 14:28:33.186052597 1 runc:[2:INIT] (27609) < futex res=1 
+285266 14:28:33.186053027 1 runc:[2:INIT] (27609) > select 
+285267 14:28:33.186055107 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285268 14:28:33.186055892 1 runc:[2:INIT] (27610) < futex res=0 
+285269 14:28:33.186056722 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285270 14:28:33.186058151 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285272 14:28:33.186128137 1 runc:[2:INIT] (27609) < select res=0 
+285273 14:28:33.186128686 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285274 14:28:33.186130800 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285282 14:28:33.186271227 1 runc:[2:INIT] (27609) < futex res=0 
+285283 14:28:33.186272012 1 runc:[2:INIT] (27609) > select 
+285284 14:28:33.186274114 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285286 14:28:33.186346735 1 runc:[2:INIT] (27609) < select res=0 
+285287 14:28:33.186347256 1 runc:[2:INIT] (27609) > select 
+285288 14:28:33.186349109 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285290 14:28:33.186421735 1 runc:[2:INIT] (27609) < select res=0 
+285291 14:28:33.186422577 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285292 14:28:33.186424282 1 runc:[2:INIT] (27609) < futex res=1 
+285293 14:28:33.186424754 1 runc:[2:INIT] (27609) > select 
+285294 14:28:33.186426737 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285295 14:28:33.186427975 1 runc:[2:INIT] (27610) < futex res=0 
+285296 14:28:33.186428688 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285297 14:28:33.186430022 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285299 14:28:33.186499307 1 runc:[2:INIT] (27609) < select res=0 
+285300 14:28:33.186499927 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285301 14:28:33.186501909 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285305 14:28:33.186571499 1 runc:[2:INIT] (27609) < futex res=0 
+285306 14:28:33.186572324 1 runc:[2:INIT] (27609) > select 
+285307 14:28:33.186574241 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285309 14:28:33.186669250 1 runc:[2:INIT] (27609) < select res=0 
+285310 14:28:33.186669868 1 runc:[2:INIT] (27609) > select 
+285311 14:28:33.186671740 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285313 14:28:33.186743852 1 runc:[2:INIT] (27609) < select res=0 
+285314 14:28:33.186744318 1 runc:[2:INIT] (27609) > select 
+285315 14:28:33.186745841 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285317 14:28:33.186818203 1 runc:[2:INIT] (27609) < select res=0 
+285318 14:28:33.186818724 1 runc:[2:INIT] (27609) > select 
+285319 14:28:33.186820363 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285321 14:28:33.186892486 1 runc:[2:INIT] (27609) < select res=0 
+285322 14:28:33.186892933 1 runc:[2:INIT] (27609) > select 
+285323 14:28:33.186894438 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285325 14:28:33.186966671 1 runc:[2:INIT] (27609) < select res=0 
+285326 14:28:33.186967499 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285327 14:28:33.186969115 1 runc:[2:INIT] (27609) < futex res=1 
+285328 14:28:33.186969548 1 runc:[2:INIT] (27609) > select 
+285329 14:28:33.186971287 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285330 14:28:33.186971932 1 runc:[2:INIT] (27610) < futex res=0 
+285331 14:28:33.186972680 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285332 14:28:33.186973858 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285334 14:28:33.187043571 1 runc:[2:INIT] (27609) < select res=0 
+285335 14:28:33.187044107 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285336 14:28:33.187045924 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285340 14:28:33.187117535 1 runc:[2:INIT] (27609) < futex res=0 
+285341 14:28:33.187118250 1 runc:[2:INIT] (27609) > select 
+285342 14:28:33.187119931 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285344 14:28:33.187192527 1 runc:[2:INIT] (27609) < select res=0 
+285345 14:28:33.187193105 1 runc:[2:INIT] (27609) > select 
+285346 14:28:33.187194684 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285348 14:28:33.187266947 1 runc:[2:INIT] (27609) < select res=0 
+285349 14:28:33.187267435 1 runc:[2:INIT] (27609) > select 
+285350 14:28:33.187269012 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285352 14:28:33.187343824 1 runc:[2:INIT] (27609) < select res=0 
+285353 14:28:33.187344563 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285354 14:28:33.187346035 1 runc:[2:INIT] (27609) < futex res=1 
+285355 14:28:33.187346350 1 runc:[2:INIT] (27609) > select 
+285356 14:28:33.187348082 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285357 14:28:33.187348939 1 runc:[2:INIT] (27610) < futex res=0 
+285358 14:28:33.187349540 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285359 14:28:33.187350746 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285361 14:28:33.187419874 1 runc:[2:INIT] (27609) < select res=0 
+285362 14:28:33.187420304 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285363 14:28:33.187421689 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285387 14:28:33.187505358 1 runc:[2:INIT] (27609) < futex res=0 
+285388 14:28:33.187506387 1 runc:[2:INIT] (27609) > select 
+285389 14:28:33.187508904 1 runc:[2:INIT] (27609) > switch next=27471(TaskSchedulerFo) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285402 14:28:33.187584990 0 runc:[2:INIT] (27609) < select res=0 
+285403 14:28:33.187586214 0 runc:[2:INIT] (27609) > select 
+285404 14:28:33.187588849 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285406 14:28:33.187662211 0 runc:[2:INIT] (27609) < select res=0 
+285407 14:28:33.187665324 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285408 14:28:33.187668999 0 runc:[2:INIT] (27609) < futex res=1 
+285409 14:28:33.187669433 0 runc:[2:INIT] (27609) > select 
+285410 14:28:33.187671450 0 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285411 14:28:33.187672189 0 runc:[2:INIT] (27610) < futex res=0 
+285412 14:28:33.187673402 0 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285413 14:28:33.187685030 0 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285417 14:28:33.187743818 0 runc:[2:INIT] (27609) < select res=0 
+285418 14:28:33.187744414 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285419 14:28:33.187746681 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285425 14:28:33.187834781 0 runc:[2:INIT] (27609) < futex res=0 
+285426 14:28:33.187835758 0 runc:[2:INIT] (27609) > select 
+285427 14:28:33.187837278 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285429 14:28:33.187908263 0 runc:[2:INIT] (27609) < select res=0 
+285430 14:28:33.187908551 0 runc:[2:INIT] (27609) > select 
+285431 14:28:33.187909357 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285433 14:28:33.187980736 0 runc:[2:INIT] (27609) < select res=0 
+285434 14:28:33.187981013 0 runc:[2:INIT] (27609) > select 
+285435 14:28:33.187981824 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285437 14:28:33.188053087 0 runc:[2:INIT] (27609) < select res=0 
+285438 14:28:33.188053338 0 runc:[2:INIT] (27609) > select 
+285439 14:28:33.188054123 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285441 14:28:33.188125766 0 runc:[2:INIT] (27609) < select res=0 
+285442 14:28:33.188126018 0 runc:[2:INIT] (27609) > select 
+285443 14:28:33.188126795 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285448 14:28:33.188198433 0 runc:[2:INIT] (27609) < select res=0 
+285449 14:28:33.188198778 0 runc:[2:INIT] (27609) > select 
+285450 14:28:33.188199671 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285452 14:28:33.188272172 0 runc:[2:INIT] (27609) < select res=0 
+285453 14:28:33.188272422 0 runc:[2:INIT] (27609) > select 
+285454 14:28:33.188273204 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285456 14:28:33.188344385 0 runc:[2:INIT] (27609) < select res=0 
+285457 14:28:33.188344655 0 runc:[2:INIT] (27609) > select 
+285458 14:28:33.188345426 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285460 14:28:33.188416600 0 runc:[2:INIT] (27609) < select res=0 
+285461 14:28:33.188416843 0 runc:[2:INIT] (27609) > select 
+285462 14:28:33.188417614 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285464 14:28:33.188488751 0 runc:[2:INIT] (27609) < select res=0 
+285465 14:28:33.188488982 0 runc:[2:INIT] (27609) > select 
+285466 14:28:33.188489728 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285468 14:28:33.188560926 0 runc:[2:INIT] (27609) < select res=0 
+285469 14:28:33.188561503 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285470 14:28:33.188567736 0 runc:[2:INIT] (27609) < futex res=1 
+285471 14:28:33.188568082 0 runc:[2:INIT] (27609) > select 
+285473 14:28:33.188569543 1 runc:[2:INIT] (27610) < futex res=0 
+285474 14:28:33.188569563 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7016 vm_swap=0 
+285475 14:28:33.188570689 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285476 14:28:33.188572063 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117436 vm_rss=7016 vm_swap=0 
+285478 14:28:33.188640358 0 runc:[2:INIT] (27609) < select res=0 
+285479 14:28:33.188640678 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285480 14:28:33.188641639 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117436 vm_rss=7280 vm_swap=0 
+285500 14:28:33.188876092 0 runc:[2:INIT] (27609) < futex res=0 
+285501 14:28:33.188876682 0 runc:[2:INIT] (27609) > select 
+285502 14:28:33.188878214 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285504 14:28:33.188951391 0 runc:[2:INIT] (27609) < select res=0 
+285505 14:28:33.188951858 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285506 14:28:33.188953010 0 runc:[2:INIT] (27609) < futex res=1 
+285507 14:28:33.188953267 0 runc:[2:INIT] (27609) > select 
+285509 14:28:33.188954459 1 runc:[2:INIT] (27610) < futex res=0 
+285510 14:28:33.188954473 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285511 14:28:33.188955414 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285512 14:28:33.188956409 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117568 vm_rss=7280 vm_swap=0 
+285514 14:28:33.189025376 0 runc:[2:INIT] (27609) < select res=0 
+285515 14:28:33.189025682 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285516 14:28:33.189026511 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285524 14:28:33.189179910 0 runc:[2:INIT] (27609) < futex res=0 
+285525 14:28:33.189180581 0 runc:[2:INIT] (27609) > select 
+285526 14:28:33.189181557 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285528 14:28:33.189252747 0 runc:[2:INIT] (27609) < select res=0 
+285529 14:28:33.189253000 0 runc:[2:INIT] (27609) > select 
+285530 14:28:33.189253749 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285532 14:28:33.189324921 0 runc:[2:INIT] (27609) < select res=0 
+285533 14:28:33.189325319 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285534 14:28:33.189326453 0 runc:[2:INIT] (27609) < futex res=1 
+285535 14:28:33.189326699 0 runc:[2:INIT] (27609) > select 
+285537 14:28:33.189327814 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285538 14:28:33.189328629 1 runc:[2:INIT] (27610) < futex res=0 
+285539 14:28:33.189329573 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285540 14:28:33.189330659 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117568 vm_rss=7280 vm_swap=0 
+285542 14:28:33.189398881 0 runc:[2:INIT] (27609) < select res=0 
+285543 14:28:33.189399156 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285544 14:28:33.189399965 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285548 14:28:33.189532354 0 runc:[2:INIT] (27609) < futex res=0 
+285549 14:28:33.189532806 0 runc:[2:INIT] (27609) > select 
+285550 14:28:33.189533641 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285560 14:28:33.189605603 0 runc:[2:INIT] (27609) < select res=0 
+285561 14:28:33.189605932 0 runc:[2:INIT] (27609) > select 
+285562 14:28:33.189607018 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285592 14:28:33.189678572 0 runc:[2:INIT] (27609) < select res=0 
+285593 14:28:33.189679151 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285594 14:28:33.189680129 0 runc:[2:INIT] (27609) < futex res=1 
+285595 14:28:33.189680388 0 runc:[2:INIT] (27609) > select 
+285597 14:28:33.189681758 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285598 14:28:33.189682293 1 runc:[2:INIT] (27610) < futex res=0 
+285599 14:28:33.189683119 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285600 14:28:33.189684269 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117568 vm_rss=7280 vm_swap=0 
+285602 14:28:33.189752577 0 runc:[2:INIT] (27609) < select res=0 
+285603 14:28:33.189752858 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285604 14:28:33.189753646 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285608 14:28:33.189959764 0 runc:[2:INIT] (27609) < futex res=0 
+285609 14:28:33.189960191 0 runc:[2:INIT] (27609) > select 
+285610 14:28:33.189961054 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285612 14:28:33.190032187 0 runc:[2:INIT] (27609) < select res=0 
+285613 14:28:33.190032447 0 runc:[2:INIT] (27609) > select 
+285614 14:28:33.190033198 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285616 14:28:33.190104565 0 runc:[2:INIT] (27609) < select res=0 
+285617 14:28:33.190104956 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285618 14:28:33.190105739 0 runc:[2:INIT] (27609) < futex res=1 
+285619 14:28:33.190105995 0 runc:[2:INIT] (27609) > select 
+285621 14:28:33.190107156 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285622 14:28:33.190107518 1 runc:[2:INIT] (27610) < futex res=0 
+285623 14:28:33.190108146 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285624 14:28:33.190109136 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117568 vm_rss=7280 vm_swap=0 
+285626 14:28:33.190178121 0 runc:[2:INIT] (27609) < select res=0 
+285627 14:28:33.190178400 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285628 14:28:33.190179205 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285632 14:28:33.190311160 0 runc:[2:INIT] (27609) < futex res=0 
+285633 14:28:33.190311570 0 runc:[2:INIT] (27609) > select 
+285634 14:28:33.190312462 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285636 14:28:33.190383493 0 runc:[2:INIT] (27609) < select res=0 
+285637 14:28:33.190383741 0 runc:[2:INIT] (27609) > select 
+285638 14:28:33.190384487 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285640 14:28:33.190455620 0 runc:[2:INIT] (27609) < select res=0 
+285641 14:28:33.190455864 0 runc:[2:INIT] (27609) > select 
+285642 14:28:33.190456609 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285644 14:28:33.190527765 0 runc:[2:INIT] (27609) < select res=0 
+285645 14:28:33.190528004 0 runc:[2:INIT] (27609) > select 
+285646 14:28:33.190528740 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285648 14:28:33.190599902 0 runc:[2:INIT] (27609) < select res=0 
+285649 14:28:33.190600307 0 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+285650 14:28:33.190601148 0 runc:[2:INIT] (27609) < futex res=1 
+285651 14:28:33.190601393 0 runc:[2:INIT] (27609) > select 
+285653 14:28:33.190602478 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+285654 14:28:33.190603003 1 runc:[2:INIT] (27610) < futex res=0 
+285655 14:28:33.190603557 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+285656 14:28:33.190604644 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117568 vm_rss=7280 vm_swap=0 
+285660 14:28:33.190674334 0 runc:[2:INIT] (27609) < select res=0 
+285661 14:28:33.190674729 0 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+285662 14:28:33.190675681 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117568 vm_rss=7280 vm_swap=0 
+286194 14:28:33.203410268 0 runc:[2:INIT] (27609) < futex res=0 
+286195 14:28:33.203412819 0 runc:[2:INIT] (27609) > select 
+286197 14:28:33.203416731 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7280 vm_swap=0 
+286236 14:28:33.203487172 0 runc:[2:INIT] (27609) < select res=0 
+286237 14:28:33.203487628 0 runc:[2:INIT] (27609) > select 
+286238 14:28:33.203488629 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7280 vm_swap=0 
+286302 14:28:33.203559541 0 runc:[2:INIT] (27609) < select res=0 
+286303 14:28:33.203559898 0 runc:[2:INIT] (27609) > select 
+286304 14:28:33.203560697 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7280 vm_swap=0 
+286323 14:28:33.203631802 0 runc:[2:INIT] (27609) < select res=0 
+286325 14:28:33.203632336 0 runc:[2:INIT] (27609) > select 
+286326 14:28:33.203633120 0 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+286405 14:28:33.203708841 1 runc:[2:INIT] (27609) < select res=0 
+286406 14:28:33.203710364 1 runc:[2:INIT] (27609) > select 
+286409 14:28:33.203731559 1 runc:[2:INIT] (27609) > switch next=1903(libvirtd) pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+286534 14:28:33.203945962 1 runc:[2:INIT] (27609) < select res=0 
+286535 14:28:33.203946834 1 runc:[2:INIT] (27609) > select 
+286537 14:28:33.203956640 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+286542 14:28:33.204022159 1 runc:[2:INIT] (27609) < select res=0 
+286543 14:28:33.204023861 1 runc:[2:INIT] (27609) > futex addr=C420024910 op=1(FUTEX_WAKE) val=1 
+286544 14:28:33.204027765 1 runc:[2:INIT] (27609) < futex res=1 
+286545 14:28:33.204028399 1 runc:[2:INIT] (27609) > select 
+286548 14:28:33.204030502 1 runc:[2:INIT] (27609) > switch next=27610(runc:[2:INIT]) pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+286549 14:28:33.204031536 1 runc:[2:INIT] (27610) < futex res=0 
+286550 14:28:33.204034683 1 runc:[2:INIT] (27610) > futex addr=C420024910 op=0(FUTEX_WAIT) val=0 
+286553 14:28:33.204048019 1 runc:[2:INIT] (27610) > switch next=0 pgft_maj=0 pgft_min=10 vm_size=117700 vm_rss=7664 vm_swap=0 
+286573 14:28:33.204102463 1 runc:[2:INIT] (27609) < select res=0 
+286574 14:28:33.204103320 1 runc:[2:INIT] (27609) > futex addr=AC6FF8 op=0(FUTEX_WAIT) val=0 
+286584 14:28:33.204119953 1 runc:[2:INIT] (27609) > switch next=27601(docker-runc) pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+290041 14:28:33.214524038 1 runc:[2:INIT] (27609) < futex res=0 
+290042 14:28:33.214528500 1 runc:[2:INIT] (27609) > select 
+290045 14:28:33.214531960 1 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+290060 14:28:33.214602879 2 runc:[2:INIT] (27609) < select res=0 
+290061 14:28:33.214603622 2 runc:[2:INIT] (27609) > select 
+290062 14:28:33.214605021 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+290079 14:28:33.214679512 2 runc:[2:INIT] (27609) < select res=0 
+290080 14:28:33.214680155 2 runc:[2:INIT] (27609) > select 
+290082 14:28:33.214682079 2 runc:[2:INIT] (27609) > switch next=1322(thermald) pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7664 vm_swap=0 
+290110 14:28:33.214753958 2 runc:[2:INIT] (27609) < select res=0 
+290111 14:28:33.214754679 2 runc:[2:INIT] (27609) > select 
+290113 14:28:33.214756095 2 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7672 vm_swap=0 
+290132 14:28:33.214810630 3 runc:[2:INIT] (27609) < select res=0 
+290133 14:28:33.214811134 3 runc:[2:INIT] (27609) > select 
+290134 14:28:33.214812229 3 runc:[2:INIT] (27609) > switch next=0 pgft_maj=0 pgft_min=0 vm_size=117700 vm_rss=7672 vm_swap=0 
+290148 14:28:33.214830367 2 runc:[2:INIT] (27609) < select res=-514(ERESTARTNOHAND) 
+290150 14:28:33.214834312 2 runc:[2:INIT] (27609) > signaldeliver spid=0 dpid=27609(runc:[2:INIT]) sig=9(SIGKILL) 
+290152 14:28:33.214841303 1 runc:[2:INIT] (27610) < futex res=-512(ERESTARTSYS) 
+290153 14:28:33.214842084 1 runc:[2:INIT] (27610) > signaldeliver spid=0 dpid=27610(runc:[2:INIT]) sig=9(SIGKILL) 
+290154 14:28:33.214842547 0 runc:[2:INIT] (27612) < futex res=-512(ERESTARTSYS) 
+290155 14:28:33.214842873 0 runc:[2:INIT] (27612) > signaldeliver spid=0 dpid=27612(runc:[2:INIT]) sig=9(SIGKILL) 
+290156 14:28:33.214845067 2 runc:[2:INIT] (27609) > procexit status=0 
+290157 14:28:33.214845548 1 runc:[2:INIT] (27610) > procexit status=0 
+290158 14:28:33.214845550 0 runc:[2:INIT] (27612) > procexit status=0 
+290162 14:28:33.214862974 1 runc:[2:INIT] (27611) < futex res=-512(ERESTARTSYS) 
+290163 14:28:33.214863271 1 runc:[2:INIT] (27611) > signaldeliver spid=0 dpid=27611(runc:[2:INIT]) sig=9(SIGKILL) 
+290164 14:28:33.214865900 1 runc:[2:INIT] (27611) > procexit status=0 
+290278 14:28:33.215328745 2 nginx (27608) < execve res=0 exe=nginx args=-g.daemon off;. tid=27608(nginx) pid=27608(nginx) ptid=27591(docker-containe) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=601 vm_size=1644 vm_rss=4 vm_swap=0 comm=nginx cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin.HOSTNAME=f1... 
+290291 14:28:33.215379332 2 nginx (27608) > brk addr=0 
+290292 14:28:33.215379824 2 nginx (27608) < brk res=55733F4B8000 vm_size=1644 vm_rss=4 vm_swap=0 
+290298 14:28:33.215404719 2 nginx (27608) > access mode=0(F_OK) 
+290322 14:28:33.215437754 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290324 14:28:33.215440033 2 nginx (27608) > mmap addr=0 length=12288 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290327 14:28:33.215442308 2 nginx (27608) < mmap res=7FA0041A7000 vm_size=1656 vm_rss=4 vm_swap=0 
+290333 14:28:33.215445977 2 nginx (27608) > access mode=4(R_OK) 
+290346 14:28:33.215454394 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.preload 
+290354 14:28:33.215465795 2 nginx (27608) > open 
+290380 14:28:33.215488776 2 nginx (27608) < open fd=3(<f>/etc/ld.so.cache) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290384 14:28:33.215491235 2 nginx (27608) > fstat fd=3(<f>/etc/ld.so.cache) 
+290388 14:28:33.215494328 2 nginx (27608) < fstat res=0 
+290389 14:28:33.215494680 2 nginx (27608) > mmap addr=0 length=8622 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=3(<f>/etc/ld.so.cache) offset=0 
+290393 14:28:33.215497782 2 nginx (27608) < mmap res=7FA0041A4000 vm_size=1668 vm_rss=4 vm_swap=0 
+290395 14:28:33.215498229 2 nginx (27608) > close fd=3(<f>/etc/ld.so.cache) 
+290398 14:28:33.215498853 2 nginx (27608) < close res=0 
+290406 14:28:33.215501023 2 nginx (27608) > access mode=0(F_OK) 
+290410 14:28:33.215505017 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290411 14:28:33.215509034 2 nginx (27608) > open 
+290431 14:28:33.215547905 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) name=/lib/x86_64-linux-gnu/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290435 14:28:33.215549171 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) size=832 
+290440 14:28:33.215551382 2 nginx (27608) < read res=832 data=.ELF..............>.............@........1..........@.8...@..................... 
+290445 14:28:33.215552811 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) 
+290448 14:28:33.215555022 2 nginx (27608) < fstat res=0 
+290449 14:28:33.215556179 2 nginx (27608) > mmap addr=0 length=2109680 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) offset=0 
+290453 14:28:33.215559479 2 nginx (27608) < mmap res=7FA003D83000 vm_size=3732 vm_rss=4 vm_swap=0 
+290455 14:28:33.215559965 2 nginx (27608) > mprotect 
+290464 14:28:33.215563839 2 nginx (27608) < mprotect 
+290465 14:28:33.215564340 2 nginx (27608) > mmap addr=7FA003F85000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) offset=8192 
+290468 14:28:33.215569692 2 nginx (27608) < mmap res=7FA003F85000 vm_size=3732 vm_rss=316 vm_swap=0 
+290475 14:28:33.215576227 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libdl.so.2) 
+290477 14:28:33.215576849 2 nginx (27608) < close res=0 
+290484 14:28:33.215580761 2 nginx (27608) > access mode=0(F_OK) 
+290486 14:28:33.215584201 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290487 14:28:33.215585576 2 nginx (27608) > open 
+290491 14:28:33.215616839 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) name=/lib/x86_64-linux-gnu/libpthread.so.0 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290492 14:28:33.215618043 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) size=832 
+290494 14:28:33.215619782 2 nginx (27608) < read res=832 data=.ELF..............>.....Pa......@.......P...........@.8...@.'.&.........@....... 
+290495 14:28:33.215620568 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) 
+290498 14:28:33.215622709 2 nginx (27608) < fstat res=0 
+290500 14:28:33.215626193 2 nginx (27608) > mmap addr=0 length=2212936 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) offset=0 
+290504 14:28:33.215628714 2 nginx (27608) < mmap res=7FA003B66000 vm_size=5896 vm_rss=316 vm_swap=0 
+290505 14:28:33.215629109 2 nginx (27608) > mprotect 
+290506 14:28:33.215632309 2 nginx (27608) < mprotect 
+290507 14:28:33.215632721 2 nginx (27608) > mmap addr=7FA003D7D000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) offset=94208 
+290509 14:28:33.215636008 2 nginx (27608) < mmap res=7FA003D7D000 vm_size=5896 vm_rss=336 vm_swap=0 
+290513 14:28:33.215639714 2 nginx (27608) > mmap addr=7FA003D7F000 length=13384 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290515 14:28:33.215642025 2 nginx (27608) < mmap res=7FA003D7F000 vm_size=5896 vm_rss=340 vm_swap=0 
+290520 14:28:33.215645611 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libpthread.so.0) 
+290522 14:28:33.215646524 2 nginx (27608) < close res=0 
+290527 14:28:33.215651896 2 nginx (27608) > access mode=0(F_OK) 
+290529 14:28:33.215654678 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290531 14:28:33.215655825 2 nginx (27608) > open 
+290551 14:28:33.215682805 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) name=/lib/x86_64-linux-gnu/libcrypt.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290553 14:28:33.215683768 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) size=832 
+290557 14:28:33.215685339 2 nginx (27608) < read res=832 data=.ELF..............>.....p.......@...................@.8...@..................... 
+290558 14:28:33.215686024 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) 
+290562 14:28:33.215688255 2 nginx (27608) < fstat res=0 
+290565 14:28:33.215691115 2 nginx (27608) > mmap addr=0 length=2322912 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) offset=0 
+290567 14:28:33.215693643 2 nginx (27608) < mmap res=7FA00392E000 vm_size=8168 vm_rss=340 vm_swap=0 
+290568 14:28:33.215694071 2 nginx (27608) > mprotect 
+290571 14:28:33.215696933 2 nginx (27608) < mprotect 
+290572 14:28:33.215697333 2 nginx (27608) > mmap addr=7FA003B36000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) offset=32768 
+290576 14:28:33.215701955 2 nginx (27608) < mmap res=7FA003B36000 vm_size=8168 vm_rss=412 vm_swap=0 
+290578 14:28:33.215704955 2 nginx (27608) > mmap addr=7FA003B38000 length=184800 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290579 14:28:33.215706882 2 nginx (27608) < mmap res=7FA003B38000 vm_size=8168 vm_rss=416 vm_swap=0 
+290586 14:28:33.215710602 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libcrypt.so.1) 
+290587 14:28:33.215711010 2 nginx (27608) < close res=0 
+290589 14:28:33.215715638 2 nginx (27608) > access mode=0(F_OK) 
+290591 14:28:33.215719031 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290592 14:28:33.215720262 2 nginx (27608) > open 
+290615 14:28:33.215747259 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) name=/lib/x86_64-linux-gnu/libpcre.so.3 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290617 14:28:33.215748333 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) size=832 
+290620 14:28:33.215750186 2 nginx (27608) < read res=832 data=.ELF..............>.............@.......8!..........@.8...@..................... 
+290621 14:28:33.215751077 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) 
+290623 14:28:33.215753097 2 nginx (27608) < fstat res=0 
+290625 14:28:33.215753939 2 nginx (27608) > mmap addr=0 length=2564360 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) offset=0 
+290628 14:28:33.215756897 2 nginx (27608) < mmap res=7FA0036BB000 vm_size=10676 vm_rss=416 vm_swap=0 
+290630 14:28:33.215757407 2 nginx (27608) > mprotect 
+290634 14:28:33.215760514 2 nginx (27608) < mprotect 
+290635 14:28:33.215760880 2 nginx (27608) > mmap addr=7FA00392C000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) offset=462848 
+290640 14:28:33.215763451 2 nginx (27608) < mmap res=7FA00392C000 vm_size=10676 vm_rss=448 vm_swap=0 
+290652 14:28:33.215770396 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libpcre.so.3) 
+290655 14:28:33.215771028 2 nginx (27608) < close res=0 
+290664 14:28:33.215776575 2 nginx (27608) > access mode=0(F_OK) 
+290666 14:28:33.215779829 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290667 14:28:33.215781058 2 nginx (27608) > open 
+290673 14:28:33.215800878 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) name=/lib/x86_64-linux-gnu/libssl.so.1.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290675 14:28:33.215802114 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) size=832 
+290677 14:28:33.215804217 2 nginx (27608) < read res=832 data=.ELF..............>.....@.......@...................@.8...@..................... 
+290679 14:28:33.215804953 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) 
+290682 14:28:33.215807112 2 nginx (27608) < fstat res=0 
+290684 14:28:33.215807913 2 nginx (27608) > mmap addr=0 length=2538392 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) offset=0 
+290688 14:28:33.215810656 2 nginx (27608) < mmap res=7FA00344F000 vm_size=13156 vm_rss=448 vm_swap=0 
+290690 14:28:33.215811085 2 nginx (27608) > mprotect 
+290695 14:28:33.215813825 2 nginx (27608) < mprotect 
+290696 14:28:33.215814186 2 nginx (27608) > mmap addr=7FA0036B1000 length=40960 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) offset=401408 
+290700 14:28:33.215816848 2 nginx (27608) < mmap res=7FA0036B1000 vm_size=13156 vm_rss=520 vm_swap=0 
+290705 14:28:33.215825009 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libssl.so.1.1) 
+290706 14:28:33.215825554 2 nginx (27608) < close res=0 
+290717 14:28:33.215831923 2 nginx (27608) > access mode=0(F_OK) 
+290723 14:28:33.215834830 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290725 14:28:33.215835960 2 nginx (27608) > open 
+290744 14:28:33.215849670 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) name=/lib/x86_64-linux-gnu/libcrypto.so.1.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290747 14:28:33.215850746 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) size=832 
+290750 14:28:33.215852300 2 nginx (27608) < read res=832 data=.ELF..............>.............@.........(.........@.8...@..................... 
+290752 14:28:33.215852988 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) 
+290754 14:28:33.215855027 2 nginx (27608) < fstat res=0 
+290755 14:28:33.215855662 2 nginx (27608) > mmap addr=0 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290757 14:28:33.215859806 2 nginx (27608) < mmap res=7FA0041A2000 vm_size=13164 vm_rss=520 vm_swap=0 
+290760 14:28:33.215862750 2 nginx (27608) > mmap addr=0 length=4795712 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) offset=0 
+290762 14:28:33.215864906 2 nginx (27608) < mmap res=7FA002FBC000 vm_size=17848 vm_rss=520 vm_swap=0 
+290763 14:28:33.215865371 2 nginx (27608) > mprotect 
+290766 14:28:33.215867558 2 nginx (27608) < mprotect 
+290767 14:28:33.215867927 2 nginx (27608) > mmap addr=7FA003420000 length=180224 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) offset=2506752 
+290773 14:28:33.215870989 2 nginx (27608) < mmap res=7FA003420000 vm_size=17848 vm_rss=628 vm_swap=0 
+290776 14:28:33.215873898 2 nginx (27608) > mmap addr=7FA00344C000 length=11584 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290777 14:28:33.215875918 2 nginx (27608) < mmap res=7FA00344C000 vm_size=17848 vm_rss=632 vm_swap=0 
+290780 14:28:33.215882514 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libcrypto.so.1.1) 
+290781 14:28:33.215883080 2 nginx (27608) < close res=0 
+290787 14:28:33.215891647 2 nginx (27608) > access mode=0(F_OK) 
+290789 14:28:33.215894660 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290790 14:28:33.215896034 2 nginx (27608) > open 
+290801 14:28:33.215917038 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) name=/lib/x86_64-linux-gnu/libz.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290802 14:28:33.215918002 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) size=832 
+290804 14:28:33.215923996 2 nginx (27608) < read res=832 data=.ELF..............>......!......@.......@...........@.8...@..................... 
+290805 14:28:33.215924778 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) 
+290807 14:28:33.215926987 2 nginx (27608) < fstat res=0 
+290809 14:28:33.215927803 2 nginx (27608) > mmap addr=0 length=2200072 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) offset=0 
+290812 14:28:33.215930334 2 nginx (27608) < mmap res=7FA002DA2000 vm_size=20000 vm_rss=632 vm_swap=0 
+290813 14:28:33.215930753 2 nginx (27608) > mprotect 
+290817 14:28:33.215933935 2 nginx (27608) < mprotect 
+290818 14:28:33.215934273 2 nginx (27608) > mmap addr=7FA002FBA000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) offset=98304 
+290819 14:28:33.215936827 2 nginx (27608) < mmap res=7FA002FBA000 vm_size=20000 vm_rss=824 vm_swap=0 
+290820 14:28:33.215943295 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libz.so.1) 
+290821 14:28:33.215943906 2 nginx (27608) < close res=0 
+290824 14:28:33.215949790 2 nginx (27608) > access mode=0(F_OK) 
+290826 14:28:33.215952558 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+290827 14:28:33.215953651 2 nginx (27608) > open 
+290833 14:28:33.215976589 2 nginx (27608) < open fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) name=/lib/x86_64-linux-gnu/libc.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+290834 14:28:33.215977636 2 nginx (27608) > read fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) size=832 
+290835 14:28:33.215979343 2 nginx (27608) < read res=832 data=.ELF..............>.............@.......P...........@.8...@.G.F.........@....... 
+290836 14:28:33.215980350 2 nginx (27608) > fstat fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) 
+290837 14:28:33.215982354 2 nginx (27608) < fstat res=0 
+290838 14:28:33.215991212 2 nginx (27608) > mmap addr=0 length=3791264 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=0 
+290839 14:28:33.215993633 2 nginx (27608) < mmap res=7FA002A04000 vm_size=23704 vm_rss=824 vm_swap=0 
+290840 14:28:33.215994041 2 nginx (27608) > mprotect 
+290841 14:28:33.215997272 2 nginx (27608) < mprotect 
+290842 14:28:33.215997609 2 nginx (27608) > mmap addr=7FA002D98000 length=24576 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) offset=1654784 
+290843 14:28:33.216000474 2 nginx (27608) < mmap res=7FA002D98000 vm_size=23704 vm_rss=900 vm_swap=0 
+290844 14:28:33.216003488 2 nginx (27608) > mmap addr=7FA002D9E000 length=14752 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290846 14:28:33.216005210 2 nginx (27608) < mmap res=7FA002D9E000 vm_size=23704 vm_rss=904 vm_swap=0 
+290849 14:28:33.216009268 2 nginx (27608) > close fd=3(<f>/lib/x86_64-linux-gnu/libc.so.6) 
+290850 14:28:33.216009737 2 nginx (27608) < close res=0 
+290858 14:28:33.216047753 2 nginx (27608) > mmap addr=0 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+290859 14:28:33.216049760 2 nginx (27608) < mmap res=7FA0041A0000 vm_size=23712 vm_rss=904 vm_swap=0 
+290861 14:28:33.216057410 2 nginx (27608) > arch_prctl 
+290862 14:28:33.216057824 2 nginx (27608) < arch_prctl 
+290915 14:28:33.216144323 2 nginx (27608) > mprotect 
+290918 14:28:33.216153041 2 nginx (27608) < mprotect 
+290921 14:28:33.216158628 2 nginx (27608) > mprotect 
+290924 14:28:33.216163325 2 nginx (27608) < mprotect 
+290930 14:28:33.216172492 2 nginx (27608) > mprotect 
+290931 14:28:33.216174051 2 nginx (27608) < mprotect 
+290935 14:28:33.216188160 2 nginx (27608) > mprotect 
+290936 14:28:33.216190247 2 nginx (27608) < mprotect 
+291022 14:28:33.216598850 2 nginx (27608) > mprotect 
+291023 14:28:33.216606606 2 nginx (27608) < mprotect 
+291026 14:28:33.216669306 2 nginx (27608) > mprotect 
+291029 14:28:33.216672969 2 nginx (27608) < mprotect 
+291048 14:28:33.216707637 2 nginx (27608) > mprotect 
+291049 14:28:33.216709886 2 nginx (27608) < mprotect 
+291051 14:28:33.216714144 2 nginx (27608) > mprotect 
+291052 14:28:33.216715482 2 nginx (27608) < mprotect 
+291098 14:28:33.217037611 2 nginx (27608) > mprotect 
+291099 14:28:33.217041537 2 nginx (27608) < mprotect 
+291100 14:28:33.217046083 2 nginx (27608) > mprotect 
+291101 14:28:33.217048166 2 nginx (27608) < mprotect 
+291102 14:28:33.217049018 2 nginx (27608) > munmap addr=7FA0041A4000 length=8622 
+291103 14:28:33.217053267 2 nginx (27608) < munmap res=0 vm_size=23700 vm_rss=2180 vm_swap=0 
+291105 14:28:33.217059923 2 nginx (27608) > set_tid_address 
+291106 14:28:33.217060763 2 nginx (27608) < set_tid_address 
+291108 14:28:33.217062334 2 nginx (27608) > set_robust_list 
+291109 14:28:33.217062697 2 nginx (27608) < set_robust_list 
+291112 14:28:33.217071662 2 nginx (27608) > rt_sigaction 
+291113 14:28:33.217072492 2 nginx (27608) < rt_sigaction 
+291114 14:28:33.217072831 2 nginx (27608) > rt_sigaction 
+291115 14:28:33.217073434 2 nginx (27608) < rt_sigaction 
+291116 14:28:33.217073709 2 nginx (27608) > rt_sigprocmask 
+291117 14:28:33.217074083 2 nginx (27608) < rt_sigprocmask 
+291118 14:28:33.217081767 2 nginx (27608) > getrlimit resource=3(RLIMIT_STACK) 
+291119 14:28:33.217082986 2 nginx (27608) < getrlimit res=0 cur=8388608 max=-1 
+291120 14:28:33.217178698 2 nginx (27608) > brk addr=0 
+291121 14:28:33.217179253 2 nginx (27608) < brk res=55733F4B8000 vm_size=23700 vm_rss=2180 vm_swap=0 
+291122 14:28:33.217179736 2 nginx (27608) > brk addr=55733F4D9000 
+291123 14:28:33.217181839 2 nginx (27608) < brk res=55733F4D9000 vm_size=23832 vm_rss=2180 vm_swap=0 
+291124 14:28:33.217266586 2 nginx (27608) > open 
+291125 14:28:33.217346145 2 nginx (27608) < open fd=3(<f>/etc/localtime) name=/etc/localtime flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291126 14:28:33.217354144 2 nginx (27608) > fstat fd=3(<f>/etc/localtime) 
+291127 14:28:33.217358610 2 nginx (27608) < fstat res=0 
+291128 14:28:33.217360093 2 nginx (27608) > fstat fd=3(<f>/etc/localtime) 
+291129 14:28:33.217361687 2 nginx (27608) < fstat res=0 
+291130 14:28:33.217364283 2 nginx (27608) > read fd=3(<f>/etc/localtime) size=4096 
+291131 14:28:33.217367039 2 nginx (27608) < read res=127 data=TZif2.............................................UTC...TZif2................... 
+291132 14:28:33.217368739 2 nginx (27608) > lseek fd=3(<f>/etc/localtime) offset=18446744073709551545 whence=1(SEEK_CUR) 
+291133 14:28:33.217369386 2 nginx (27608) < lseek res=56 
+291134 14:28:33.217369926 2 nginx (27608) > read fd=3(<f>/etc/localtime) size=4096 
+291135 14:28:33.217370858 2 nginx (27608) < read res=71 data=TZif2......................................................UTC....UTC0. 
+291136 14:28:33.217373498 2 nginx (27608) > close fd=3(<f>/etc/localtime) 
+291137 14:28:33.217374264 2 nginx (27608) < close res=0 
+291138 14:28:33.217395436 2 nginx (27608) > getpid 
+291139 14:28:33.217395906 2 nginx (27608) < getpid 
+291140 14:28:33.217396351 2 nginx (27608) > open 
+291141 14:28:33.217460053 2 nginx (27608) < open fd=3(<f>/var/log/nginx/error.log) name=/var/log/nginx/error.log flags=14(O_APPEND|O_CREAT|O_WRONLY) mode=0 
+291142 14:28:33.217495250 2 nginx (27608) > futex addr=7FA00344D258 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291143 14:28:33.217496323 2 nginx (27608) < futex res=0 
+291144 14:28:33.217670215 2 nginx (27608) > futex addr=7FA00344D23C op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291145 14:28:33.217670988 2 nginx (27608) < futex res=0 
+291146 14:28:33.217700352 2 nginx (27608) > futex addr=7FA00344D234 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291147 14:28:33.217701039 2 nginx (27608) < futex res=0 
+291148 14:28:33.217721635 2 nginx (27608) > futex addr=7FA00344B6BC op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291149 14:28:33.217722092 2 nginx (27608) < futex res=0 
+291150 14:28:33.217723657 2 nginx (27608) > futex addr=7FA00344D104 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291151 14:28:33.217723984 2 nginx (27608) < futex res=0 
+291152 14:28:33.217733759 2 nginx (27608) > futex addr=7FA00344D098 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291153 14:28:33.217734133 2 nginx (27608) < futex res=0 
+291154 14:28:33.217737892 2 nginx (27608) > futex addr=7FA00344D090 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291155 14:28:33.217738209 2 nginx (27608) < futex res=0 
+291197 14:28:33.219073662 2 nginx (27608) > futex addr=7FA00344D24C op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291198 14:28:33.219074844 2 nginx (27608) < futex res=0 
+291199 14:28:33.219076632 2 nginx (27608) > futex addr=7FA00344D1FC op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291200 14:28:33.219077034 2 nginx (27608) < futex res=0 
+291201 14:28:33.219081884 2 nginx (27608) > futex addr=7FA00344D1F4 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291202 14:28:33.219082635 2 nginx (27608) < futex res=0 
+291203 14:28:33.219107139 2 nginx (27608) > open 
+291204 14:28:33.219126812 2 nginx (27608) < open fd=-2(ENOENT) name=/usr/lib/ssl/openssl.cnf flags=1(O_RDONLY) mode=0 
+291205 14:28:33.219138484 2 nginx (27608) > futex addr=7FA00344D228 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291206 14:28:33.219139077 2 nginx (27608) < futex res=0 
+291208 14:28:33.219211456 2 nginx (27608) > futex addr=7FA0036BAAA0 op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291209 14:28:33.219212155 2 nginx (27608) < futex res=0 
+291210 14:28:33.219214778 2 nginx (27608) > sysinfo 
+291215 14:28:33.219218124 2 nginx (27608) < sysinfo 
+291229 14:28:33.219266265 2 nginx (27608) > futex addr=7FA0036BAB7C op=129(FUTEX_PRIVATE_FLAG|FUTEX_WAKE) val=2147483647 
+291231 14:28:33.219266773 2 nginx (27608) < futex res=0 
+291235 14:28:33.219272980 2 nginx (27608) > uname 
+291236 14:28:33.219274278 2 nginx (27608) < uname 
+291237 14:28:33.219275965 2 nginx (27608) > open 
+291243 14:28:33.219300438 2 nginx (27608) < open fd=4(<f>/sys/devices/system/cpu/online) name=/sys/devices/system/cpu/online flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291245 14:28:33.219303734 2 nginx (27608) > read fd=4(<f>/sys/devices/system/cpu/online) size=8192 
+291246 14:28:33.219312520 2 nginx (27608) < read res=4 data=0-3. 
+291247 14:28:33.219313964 2 nginx (27608) > close fd=4(<f>/sys/devices/system/cpu/online) 
+291248 14:28:33.219314370 2 nginx (27608) < close res=0 
+291249 14:28:33.219317165 2 nginx (27608) > getrlimit resource=7(RLIMIT_NOFILE) 
+291250 14:28:33.219317766 2 nginx (27608) < getrlimit res=0 cur=1048576 max=1048576 
+291251 14:28:33.219323779 2 nginx (27608) > stat 
+291252 14:28:33.219337748 2 nginx (27608) < stat res=0 path=/etc/localtime 
+291254 14:28:33.219351569 2 nginx (27608) > uname 
+291255 14:28:33.219352522 2 nginx (27608) < uname 
+291259 14:28:33.219358226 2 nginx (27608) > brk addr=55733F4FB000 
+291263 14:28:33.219361404 2 nginx (27608) < brk res=55733F4FB000 vm_size=23968 vm_rss=4436 vm_swap=0 
+291265 14:28:33.219366346 2 nginx (27608) > open 
+291274 14:28:33.219408759 2 nginx (27608) < open fd=4(<f>/etc/nginx/nginx.conf) name=/etc/nginx/nginx.conf flags=1(O_RDONLY) mode=0 
+291275 14:28:33.219410594 2 nginx (27608) > fstat fd=4(<f>/etc/nginx/nginx.conf) 
+291276 14:28:33.219413807 2 nginx (27608) < fstat res=0 
+291277 14:28:33.219416863 2 nginx (27608) > pread fd=4(<f>/etc/nginx/nginx.conf) size=643 pos=0 
+291278 14:28:33.219420436 2 nginx (27608) < pread res=643 data=.user  nginx;.worker_processes  1;..error_log  /var/log/nginx/error.log warn;.pi 
+291279 14:28:33.219423887 2 nginx (27608) > geteuid 
+291280 14:28:33.219424502 2 nginx (27608) < geteuid euid=0(root) 
+291285 14:28:33.219433817 2 nginx (27608) > socket domain=1(AF_LOCAL) type=526337 proto=0 
+291288 14:28:33.219456148 2 nginx (27608) < socket fd=5(<u>) 
+291289 14:28:33.219457064 2 nginx (27608) > connect fd=5(<u>) 
+291299 14:28:33.219506357 2 nginx (27608) < connect res=-2(ENOENT) tuple=0->ffff9dcac2d19c00 /var/run/nscd/socket 
+291301 14:28:33.219509166 2 nginx (27608) > close fd=5(<u>) 
+291303 14:28:33.219509675 2 nginx (27608) < close res=0 
+291306 14:28:33.219515446 2 nginx (27608) > socket domain=1(AF_LOCAL) type=526337 proto=0 
+291307 14:28:33.219520130 2 nginx (27608) < socket fd=5(<u>) 
+291308 14:28:33.219520707 2 nginx (27608) > connect fd=5(<u>) 
+291309 14:28:33.219528870 2 nginx (27608) < connect res=-2(ENOENT) tuple=0->ffff9dcac2d19c00 /var/run/nscd/socket 
+291310 14:28:33.219530504 2 nginx (27608) > close fd=5(<u>) 
+291311 14:28:33.219530803 2 nginx (27608) < close res=0 
+291314 14:28:33.219541902 2 nginx (27608) > open 
+291315 14:28:33.219564457 2 nginx (27608) < open fd=5(<f>/etc/nsswitch.conf) name=/etc/nsswitch.conf flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291316 14:28:33.219572497 2 nginx (27608) > fstat fd=5(<f>/etc/nsswitch.conf) 
+291317 14:28:33.219575518 2 nginx (27608) < fstat res=0 
+291318 14:28:33.219578344 2 nginx (27608) > read fd=5(<f>/etc/nsswitch.conf) size=4096 
+291319 14:28:33.219581219 2 nginx (27608) < read res=497 data=# /etc/nsswitch.conf.#.# Example configuration of GNU Name Service Switch functi 
+291320 14:28:33.219588147 2 nginx (27608) > read fd=5(<f>/etc/nsswitch.conf) size=4096 
+291321 14:28:33.219589211 2 nginx (27608) < read res=0 data= 
+291322 14:28:33.219590357 2 nginx (27608) > close fd=5(<f>/etc/nsswitch.conf) 
+291323 14:28:33.219591145 2 nginx (27608) < close res=0 
+291324 14:28:33.219601390 2 nginx (27608) > open 
+291325 14:28:33.219610814 2 nginx (27608) < open fd=5(<f>/etc/ld.so.cache) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291326 14:28:33.219611963 2 nginx (27608) > fstat fd=5(<f>/etc/ld.so.cache) 
+291327 14:28:33.219614270 2 nginx (27608) < fstat res=0 
+291328 14:28:33.219614698 2 nginx (27608) > mmap addr=0 length=8622 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=5(<f>/etc/ld.so.cache) offset=0 
+291329 14:28:33.219620199 2 nginx (27608) < mmap res=7FA0041A4000 vm_size=23980 vm_rss=4436 vm_swap=0 
+291330 14:28:33.219620873 2 nginx (27608) > close fd=5(<f>/etc/ld.so.cache) 
+291331 14:28:33.219621405 2 nginx (27608) < close res=0 
+291332 14:28:33.219624542 2 nginx (27608) > access mode=0(F_OK) 
+291333 14:28:33.219630046 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+291334 14:28:33.219637357 2 nginx (27608) > open 
+291338 14:28:33.219668583 2 nginx (27608) < open fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) name=/lib/x86_64-linux-gnu/libnss_compat.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291339 14:28:33.219670245 2 nginx (27608) > read fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) size=832 
+291340 14:28:33.219672632 2 nginx (27608) < read res=832 data=.ELF..............>.............@........t..........@.8...@..................... 
+291341 14:28:33.219674054 2 nginx (27608) > fstat fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) 
+291342 14:28:33.219676487 2 nginx (27608) < fstat res=0 
+291343 14:28:33.219679784 2 nginx (27608) > mmap addr=0 length=2126944 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) offset=0 
+291344 14:28:33.219684296 2 nginx (27608) < mmap res=7FA0027FC000 vm_size=26060 vm_rss=4436 vm_swap=0 
+291345 14:28:33.219684926 2 nginx (27608) > mprotect 
+291346 14:28:33.219689740 2 nginx (27608) < mprotect 
+291347 14:28:33.219690318 2 nginx (27608) > mmap addr=7FA002A02000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) offset=24576 
+291348 14:28:33.219702547 2 nginx (27608) < mmap res=7FA002A02000 vm_size=26060 vm_rss=4908 vm_swap=0 
+291350 14:28:33.219713303 2 nginx (27608) > close fd=5(<f>/lib/x86_64-linux-gnu/libnss_compat.so.2) 
+291351 14:28:33.219713973 2 nginx (27608) < close res=0 
+291352 14:28:33.219721161 2 nginx (27608) > access mode=0(F_OK) 
+291353 14:28:33.219726001 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+291354 14:28:33.219728202 2 nginx (27608) > open 
+291355 14:28:33.219757894 2 nginx (27608) < open fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) name=/lib/x86_64-linux-gnu/libnsl.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291356 14:28:33.219759397 2 nginx (27608) > read fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) size=832 
+291357 14:28:33.219765976 2 nginx (27608) < read res=832 data=.ELF..............>......?......@.......hT..........@.8...@..................... 
+291358 14:28:33.219767078 2 nginx (27608) > fstat fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) 
+291359 14:28:33.219769714 2 nginx (27608) < fstat res=0 
+291360 14:28:33.219771777 2 nginx (27608) > mmap addr=0 length=2194008 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) offset=0 
+291361 14:28:33.219775646 2 nginx (27608) < mmap res=7FA0025E4000 vm_size=28204 vm_rss=4908 vm_swap=0 
+291362 14:28:33.219776112 2 nginx (27608) > mprotect 
+291363 14:28:33.219780940 2 nginx (27608) < mprotect 
+291364 14:28:33.219781408 2 nginx (27608) > mmap addr=7FA0027F8000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) offset=81920 
+291365 14:28:33.219785943 2 nginx (27608) < mmap res=7FA0027F8000 vm_size=28204 vm_rss=4932 vm_swap=0 
+291366 14:28:33.219790061 2 nginx (27608) > mmap addr=7FA0027FA000 length=6744 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+291367 14:28:33.219792388 2 nginx (27608) < mmap res=7FA0027FA000 vm_size=28204 vm_rss=4936 vm_swap=0 
+291368 14:28:33.219796874 2 nginx (27608) > close fd=5(<f>/lib/x86_64-linux-gnu/libnsl.so.1) 
+291369 14:28:33.219797460 2 nginx (27608) < close res=0 
+291371 14:28:33.219831303 2 nginx (27608) > mprotect 
+291372 14:28:33.219834438 2 nginx (27608) < mprotect 
+291373 14:28:33.219839366 2 nginx (27608) > mprotect 
+291374 14:28:33.219841299 2 nginx (27608) < mprotect 
+291375 14:28:33.219842858 2 nginx (27608) > munmap addr=7FA0041A4000 length=8622 
+291377 14:28:33.219846687 2 nginx (27608) < munmap res=0 vm_size=28192 vm_rss=4992 vm_swap=0 
+291380 14:28:33.219862397 2 nginx (27608) > open 
+291382 14:28:33.219871376 2 nginx (27608) < open fd=5(<f>/etc/ld.so.cache) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291383 14:28:33.219872382 2 nginx (27608) > fstat fd=5(<f>/etc/ld.so.cache) 
+291384 14:28:33.219874899 2 nginx (27608) < fstat res=0 
+291385 14:28:33.219875369 2 nginx (27608) > mmap addr=0 length=8622 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=5(<f>/etc/ld.so.cache) offset=0 
+291386 14:28:33.219877979 2 nginx (27608) < mmap res=7FA0041A4000 vm_size=28204 vm_rss=4992 vm_swap=0 
+291387 14:28:33.219878417 2 nginx (27608) > close fd=5(<f>/etc/ld.so.cache) 
+291388 14:28:33.219879036 2 nginx (27608) < close res=0 
+291389 14:28:33.219881570 2 nginx (27608) > access mode=0(F_OK) 
+291391 14:28:33.219885502 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+291392 14:28:33.219887685 2 nginx (27608) > open 
+291393 14:28:33.219921324 2 nginx (27608) < open fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) name=/lib/x86_64-linux-gnu/libnss_nis.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291394 14:28:33.219922865 2 nginx (27608) > read fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) size=832 
+291395 14:28:33.219924953 2 nginx (27608) < read res=832 data=.ELF..............>...... ......@...................@.8...@..................... 
+291396 14:28:33.219926071 2 nginx (27608) > fstat fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) 
+291397 14:28:33.219928740 2 nginx (27608) < fstat res=0 
+291399 14:28:33.219934009 2 nginx (27608) > mmap addr=0 length=2143656 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) offset=0 
+291400 14:28:33.219937776 2 nginx (27608) < mmap res=7FA0023D8000 vm_size=30300 vm_rss=4992 vm_swap=0 
+291401 14:28:33.219938312 2 nginx (27608) > mprotect 
+291403 14:28:33.219945414 2 nginx (27608) < mprotect 
+291405 14:28:33.219945859 2 nginx (27608) > mmap addr=7FA0025E2000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) offset=40960 
+291406 14:28:33.219949768 2 nginx (27608) < mmap res=7FA0025E2000 vm_size=30300 vm_rss=5020 vm_swap=0 
+291407 14:28:33.219964220 2 nginx (27608) > close fd=5(<f>/lib/x86_64-linux-gnu/libnss_nis.so.2) 
+291408 14:28:33.219964980 2 nginx (27608) < close res=0 
+291409 14:28:33.219973298 2 nginx (27608) > access mode=0(F_OK) 
+291410 14:28:33.219978172 2 nginx (27608) < access res=-2(ENOENT) name=/etc/ld.so.nohwcap 
+291411 14:28:33.219979787 2 nginx (27608) > open 
+291421 14:28:33.220012613 2 nginx (27608) < open fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) name=/lib/x86_64-linux-gnu/libnss_files.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291423 14:28:33.220014132 2 nginx (27608) > read fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) size=832 
+291426 14:28:33.220016455 2 nginx (27608) < read res=832 data=.ELF..............>......!......@...................@.8...@..................... 
+291427 14:28:33.220017414 2 nginx (27608) > fstat fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) 
+291431 14:28:33.220022445 2 nginx (27608) < fstat res=0 
+291432 14:28:33.220025910 2 nginx (27608) > mmap addr=0 length=2168600 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) offset=0 
+291433 14:28:33.220029391 2 nginx (27608) < mmap res=7FA0021C6000 vm_size=32420 vm_rss=5020 vm_swap=0 
+291434 14:28:33.220029856 2 nginx (27608) > mprotect 
+291435 14:28:33.220033246 2 nginx (27608) < mprotect 
+291436 14:28:33.220033511 2 nginx (27608) > mmap addr=7FA0023D0000 length=8192 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) offset=40960 
+291437 14:28:33.220036934 2 nginx (27608) < mmap res=7FA0023D0000 vm_size=32420 vm_rss=5072 vm_swap=0 
+291438 14:28:33.220040729 2 nginx (27608) > mmap addr=7FA0023D2000 length=22296 prot=3(PROT_READ|PROT_WRITE) flags=14(MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+291439 14:28:33.220042194 2 nginx (27608) < mmap res=7FA0023D2000 vm_size=32420 vm_rss=5076 vm_swap=0 
+291440 14:28:33.220045901 2 nginx (27608) > close fd=5(<f>/lib/x86_64-linux-gnu/libnss_files.so.2) 
+291442 14:28:33.220046733 2 nginx (27608) < close res=0 
+291443 14:28:33.220063542 2 nginx (27608) > mprotect 
+291444 14:28:33.220065431 2 nginx (27608) < mprotect 
+291445 14:28:33.220069850 2 nginx (27608) > mprotect 
+291446 14:28:33.220071674 2 nginx (27608) < mprotect 
+291447 14:28:33.220073135 2 nginx (27608) > munmap addr=7FA0041A4000 length=8622 
+291450 14:28:33.220076753 2 nginx (27608) < munmap res=0 vm_size=32408 vm_rss=5108 vm_swap=0 
+291461 14:28:33.220092064 2 nginx (27608) > open 
+291466 14:28:33.220103032 2 nginx (27608) < open fd=5(<f>/etc/passwd) name=/etc/passwd flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291468 14:28:33.220107982 2 nginx (27608) > lseek fd=5(<f>/etc/passwd) offset=0 whence=1(SEEK_CUR) 
+291469 14:28:33.220108894 2 nginx (27608) < lseek res=0 
+291472 14:28:33.220111071 2 nginx (27608) > fstat fd=5(<f>/etc/passwd) 
+291473 14:28:33.220114089 2 nginx (27608) < fstat res=0 
+291474 14:28:33.220114624 2 nginx (27608) > mmap addr=0 length=973 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=5(<f>/etc/passwd) offset=0 
+291476 14:28:33.220117301 2 nginx (27608) < mmap res=7FA0041A6000 vm_size=32412 vm_rss=5108 vm_swap=0 
+291477 14:28:33.220118017 2 nginx (27608) > lseek fd=5(<f>/etc/passwd) offset=973 whence=0(SEEK_SET) 
+291478 14:28:33.220118573 2 nginx (27608) < lseek res=973 
+291481 14:28:33.220134844 2 nginx (27608) > munmap addr=7FA0041A6000 length=973 
+291482 14:28:33.220137497 2 nginx (27608) < munmap res=0 vm_size=32408 vm_rss=5108 vm_swap=0 
+291483 14:28:33.220138054 2 nginx (27608) > close fd=5(<f>/etc/passwd) 
+291484 14:28:33.220139304 2 nginx (27608) < close res=0 
+291485 14:28:33.220145606 2 nginx (27608) > socket domain=1(AF_LOCAL) type=526337 proto=0 
+291486 14:28:33.220157797 2 nginx (27608) < socket fd=5(<u>) 
+291487 14:28:33.220158411 2 nginx (27608) > connect fd=5(<u>) 
+291491 14:28:33.220170389 2 nginx (27608) < connect res=-2(ENOENT) tuple=0->ffff9dcac2d19c00 /var/run/nscd/socket 
+291493 14:28:33.220172280 2 nginx (27608) > close fd=5(<u>) 
+291494 14:28:33.220172649 2 nginx (27608) < close res=0 
+291496 14:28:33.220178272 2 nginx (27608) > socket domain=1(AF_LOCAL) type=526337 proto=0 
+291497 14:28:33.220181110 2 nginx (27608) < socket fd=5(<u>) 
+291498 14:28:33.220181424 2 nginx (27608) > connect fd=5(<u>) 
+291499 14:28:33.220185962 2 nginx (27608) < connect res=-2(ENOENT) tuple=0->ffff9dcac2d19c00 /var/run/nscd/socket 
+291500 14:28:33.220186822 2 nginx (27608) > close fd=5(<u>) 
+291501 14:28:33.220187061 2 nginx (27608) < close res=0 
+291502 14:28:33.220195303 2 nginx (27608) > open 
+291503 14:28:33.220200816 2 nginx (27608) < open fd=5(<f>/etc/group) name=/etc/group flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+291504 14:28:33.220201835 2 nginx (27608) > lseek fd=5(<f>/etc/group) offset=0 whence=1(SEEK_CUR) 
+291505 14:28:33.220202202 2 nginx (27608) < lseek res=0 
+291506 14:28:33.220202647 2 nginx (27608) > fstat fd=5(<f>/etc/group) 
+291507 14:28:33.220204698 2 nginx (27608) < fstat res=0 
+291508 14:28:33.220204985 2 nginx (27608) > mmap addr=0 length=459 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=5(<f>/etc/group) offset=0 
+291509 14:28:33.220207040 2 nginx (27608) < mmap res=7FA0041A6000 vm_size=32412 vm_rss=5108 vm_swap=0 
+291510 14:28:33.220207309 2 nginx (27608) > lseek fd=5(<f>/etc/group) offset=459 whence=0(SEEK_SET) 
+291511 14:28:33.220207588 2 nginx (27608) < lseek res=459 
+291512 14:28:33.220219345 2 nginx (27608) > munmap addr=7FA0041A6000 length=459 
+291513 14:28:33.220221124 2 nginx (27608) < munmap res=0 vm_size=32408 vm_rss=5108 vm_swap=0 
+291514 14:28:33.220221410 2 nginx (27608) > close fd=5(<f>/etc/group) 
+291516 14:28:33.220222016 2 nginx (27608) < close res=0 
+291519 14:28:33.220232669 2 nginx (27608) > epoll_create 
+291521 14:28:33.220235314 2 nginx (27608) < epoll_create 
+291522 14:28:33.220235845 2 nginx (27608) > close fd=5 
+291523 14:28:33.220236197 2 nginx (27608) < close res=0 
+291541 14:28:33.220402096 2 nginx (27608) > open 
+291548 14:28:33.220430263 2 nginx (27608) < open fd=5(<f>/etc/nginx/mime.types) name=/etc/nginx/mime.types flags=1(O_RDONLY) mode=0 
+291549 14:28:33.220432076 2 nginx (27608) > fstat fd=5(<f>/etc/nginx/mime.types) 
+291551 14:28:33.220435424 2 nginx (27608) < fstat res=0 
+291553 14:28:33.220438283 2 nginx (27608) > pread fd=5(<f>/etc/nginx/mime.types) size=3957 pos=0 
+291556 14:28:33.220441535 2 nginx (27608) < pread res=3957 data=.types {.    text/html                             html htm shtml;.    text/css  
+291607 14:28:33.220550448 2 nginx (27608) > close fd=5(<f>/etc/nginx/mime.types) 
+291609 14:28:33.220551771 2 nginx (27608) < close res=0 
+291618 14:28:33.220577158 2 nginx (27608) > open 
+291634 14:28:33.220600408 2 nginx (27608) < open fd=5(<d>/etc/nginx/conf.d) name=/etc/nginx/conf.d flags=5185(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC) mode=0 
+291635 14:28:33.220601858 2 nginx (27608) > fstat fd=5(<d>/etc/nginx/conf.d) 
+291636 14:28:33.220604115 2 nginx (27608) < fstat res=0 
+291638 14:28:33.220612853 2 nginx (27608) > getdents fd=5(<d>/etc/nginx/conf.d) 
+291645 14:28:33.220627786 2 nginx (27608) < getdents res=80 
+291646 14:28:33.220634500 2 nginx (27608) > getdents fd=5(<d>/etc/nginx/conf.d) 
+291649 14:28:33.220635226 2 nginx (27608) < getdents res=0 
+291653 14:28:33.220637706 2 nginx (27608) > close fd=5(<d>/etc/nginx/conf.d) 
+291656 14:28:33.220638616 2 nginx (27608) < close res=0 
+291663 14:28:33.220642273 2 nginx (27608) > open 
+291669 14:28:33.220653761 2 nginx (27608) < open fd=5(<f>/etc/nginx/conf.d/default.conf) name=/etc/nginx/conf.d/default.conf flags=1(O_RDONLY) mode=0 
+291670 14:28:33.220655318 2 nginx (27608) > fstat fd=5(<f>/etc/nginx/conf.d/default.conf) 
+291671 14:28:33.220656943 2 nginx (27608) < fstat res=0 
+291673 14:28:33.220659360 2 nginx (27608) > pread fd=5(<f>/etc/nginx/conf.d/default.conf) size=1097 pos=0 
+291675 14:28:33.220662339 2 nginx (27608) < pread res=1097 data=server {.    listen       80;.    server_name  localhost;..    #charset koi8-r;. 
+291689 14:28:33.220703938 2 nginx (27608) > close fd=5(<f>/etc/nginx/conf.d/default.conf) 
+291690 14:28:33.220704915 2 nginx (27608) < close res=0 
+291691 14:28:33.221023087 2 nginx (27608) > close fd=4(<f>/etc/nginx/nginx.conf) 
+291692 14:28:33.221023999 2 nginx (27608) < close res=0 
+291693 14:28:33.221027427 2 nginx (27608) >  
+291704 14:28:33.221183689 2 nginx (27608) > switch next=18240 pgft_maj=0 pgft_min=904 vm_size=32408 vm_rss=5108 vm_swap=0 
+291729 14:28:33.221262635 2 nginx (27608) <  
+291730 14:28:33.221265433 2 nginx (27608) > stat 
+291733 14:28:33.221274406 2 nginx (27608) < stat res=0 path=/var/cache/nginx/client_temp 
+291734 14:28:33.221278144 2 nginx (27608) > chown 
+291739 14:28:33.221290248 2 nginx (27608) < chown 
+291740 14:28:33.221290709 2 nginx (27608) >  
+291748 14:28:33.221318313 2 nginx (27608) <  
+291749 14:28:33.221319554 2 nginx (27608) > stat 
+291752 14:28:33.221324381 2 nginx (27608) < stat res=0 path=/var/cache/nginx/proxy_temp 
+291753 14:28:33.221325294 2 nginx (27608) > chown 
+291758 14:28:33.221331720 2 nginx (27608) < chown 
+291760 14:28:33.221332151 2 nginx (27608) >  
+291762 14:28:33.221352738 2 nginx (27608) <  
+291763 14:28:33.221353769 2 nginx (27608) > stat 
+291764 14:28:33.221357902 2 nginx (27608) < stat res=0 path=/var/cache/nginx/fastcgi_temp 
+291765 14:28:33.221358740 2 nginx (27608) > chown 
+291766 14:28:33.221364488 2 nginx (27608) < chown 
+291767 14:28:33.221364890 2 nginx (27608) >  
+291769 14:28:33.221395985 2 nginx (27608) <  
+291770 14:28:33.221397100 2 nginx (27608) > stat 
+291771 14:28:33.221401510 2 nginx (27608) < stat res=0 path=/var/cache/nginx/uwsgi_temp 
+291772 14:28:33.221402249 2 nginx (27608) > chown 
+291773 14:28:33.221407931 2 nginx (27608) < chown 
+291774 14:28:33.221410089 2 nginx (27608) >  
+291775 14:28:33.221434691 2 nginx (27608) <  
+291776 14:28:33.221435666 2 nginx (27608) > stat 
+291777 14:28:33.221439849 2 nginx (27608) < stat res=0 path=/var/cache/nginx/scgi_temp 
+291778 14:28:33.221440693 2 nginx (27608) > chown 
+291779 14:28:33.221445997 2 nginx (27608) < chown 
+291780 14:28:33.221446713 2 nginx (27608) > open 
+291781 14:28:33.221468729 2 nginx (27608) < open fd=4(<f>/var/log/nginx/error.log) name=/var/log/nginx/error.log flags=14(O_APPEND|O_CREAT|O_WRONLY) mode=0 
+291782 14:28:33.221469834 2 nginx (27608) > fcntl fd=4(<f>/var/log/nginx/error.log) cmd=3(F_SETFD) 
+291783 14:28:33.221470513 2 nginx (27608) < fcntl res=0(<p>) 
+291784 14:28:33.221470874 2 nginx (27608) > open 
+291794 14:28:33.221501743 2 nginx (27608) < open fd=5(<f>/var/log/nginx/access.log) name=/var/log/nginx/access.log flags=14(O_APPEND|O_CREAT|O_WRONLY) mode=0 
+291795 14:28:33.221503217 2 nginx (27608) > fcntl fd=5(<f>/var/log/nginx/access.log) cmd=3(F_SETFD) 
+291796 14:28:33.221503624 2 nginx (27608) < fcntl res=0(<p>) 
+291798 14:28:33.221506271 2 nginx (27608) > socket domain=2(AF_INET) type=1 proto=0 
+291801 14:28:33.221512504 2 nginx (27608) < socket fd=6(<4>) 
+291803 14:28:33.221513323 2 nginx (27608) > setsockopt 
+291806 14:28:33.221515266 2 nginx (27608) < setsockopt 
+291807 14:28:33.221516101 2 nginx (27608) > ioctl fd=6(<4>) request=5421 argument=7FFC753D6744 
+291809 14:28:33.221516978 2 nginx (27608) < ioctl res=0 
+291810 14:28:33.221517590 2 nginx (27608) > bind fd=6(<4>) 
+291811 14:28:33.221522688 2 nginx (27608) < bind res=0 addr=0.0.0.0:http 
+291812 14:28:33.221523909 2 nginx (27608) > listen fd=6(<2>0.0.0.0:http) backlog=511 
+291814 14:28:33.221525937 2 nginx (27608) < listen res=0 
+291816 14:28:33.221526883 2 nginx (27608) > listen fd=6(<2>0.0.0.0:http) backlog=511 
+291817 14:28:33.221527646 2 nginx (27608) < listen res=0 
+291818 14:28:33.221529131 2 nginx (27608) > getrlimit resource=7(RLIMIT_NOFILE) 
+291819 14:28:33.221530220 2 nginx (27608) < getrlimit res=0 cur=1048576 max=1048576 
+291820 14:28:33.221531327 2 nginx (27608) > mmap addr=0 length=1280 prot=3(PROT_READ|PROT_WRITE) flags=9(MAP_SHARED|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+291824 14:28:33.221547632 2 nginx (27608) < mmap res=7FA0041A6000 vm_size=32412 vm_rss=5108 vm_swap=0 
+291825 14:28:33.221559157 2 nginx (27608) > rt_sigaction 
+291826 14:28:33.221560364 2 nginx (27608) < rt_sigaction 
+291828 14:28:33.221560987 2 nginx (27608) > rt_sigaction 
+291829 14:28:33.221561532 2 nginx (27608) < rt_sigaction 
+291831 14:28:33.221561938 2 nginx (27608) > rt_sigaction 
+291832 14:28:33.221562364 2 nginx (27608) < rt_sigaction 
+291833 14:28:33.221562705 2 nginx (27608) > rt_sigaction 
+291834 14:28:33.221562984 2 nginx (27608) < rt_sigaction 
+291835 14:28:33.221563403 2 nginx (27608) > rt_sigaction 
+291836 14:28:33.221563727 2 nginx (27608) < rt_sigaction 
+291837 14:28:33.221564088 2 nginx (27608) > rt_sigaction 
+291838 14:28:33.221564395 2 nginx (27608) < rt_sigaction 
+291839 14:28:33.221564810 2 nginx (27608) > rt_sigaction 
+291840 14:28:33.221565092 2 nginx (27608) < rt_sigaction 
+291841 14:28:33.221565491 2 nginx (27608) > rt_sigaction 
+291842 14:28:33.221565827 2 nginx (27608) < rt_sigaction 
+291843 14:28:33.221566243 2 nginx (27608) > rt_sigaction 
+291844 14:28:33.221566560 2 nginx (27608) < rt_sigaction 
+291845 14:28:33.221566888 2 nginx (27608) > rt_sigaction 
+291846 14:28:33.221567188 2 nginx (27608) < rt_sigaction 
+291847 14:28:33.221567602 2 nginx (27608) > rt_sigaction 
+291848 14:28:33.221568147 2 nginx (27608) < rt_sigaction 
+291849 14:28:33.221568662 2 nginx (27608) > rt_sigaction 
+291850 14:28:33.221568978 2 nginx (27608) < rt_sigaction 
+291851 14:28:33.221569499 2 nginx (27608) > open 
+291887 14:28:33.221672267 2 nginx (27608) < open fd=7(<f>/var/run/nginx.pid) name=/var/run/nginx.pid flags=263(O_TRUNC|O_CREAT|O_RDWR) mode=0 
+291890 14:28:33.221674585 2 nginx (27608) > pwrite fd=7(<f>/var/run/nginx.pid) size=2 pos=0 
+291898 14:28:33.221691576 2 nginx (27608) < pwrite res=2 data=1. 
+291899 14:28:33.221692833 2 nginx (27608) > close fd=7(<f>/var/run/nginx.pid) 
+291900 14:28:33.221693761 2 nginx (27608) < close res=0 
+291901 14:28:33.221699678 2 nginx (27608) > dup fd=4(<f>/var/log/nginx/error.log) 
+291903 14:28:33.221700837 2 nginx (27608) < dup res=2(<f>/var/log/nginx/error.log) 
+291904 14:28:33.221711006 2 nginx (27608) > close fd=3(<f>/var/log/nginx/error.log) 
+291906 14:28:33.221711436 2 nginx (27608) < close res=0 
+291908 14:28:33.221713234 2 nginx (27608) > rt_sigprocmask 
+291909 14:28:33.221714113 2 nginx (27608) < rt_sigprocmask 
+291910 14:28:33.221718014 2 nginx (27608) > socketpair domain=1(AF_LOCAL) type=1 proto=0 
+291913 14:28:33.221726974 2 nginx (27608) < socketpair res=0 fd1=3(<u>) fd2=7(<u>) source=FFFF9DCAC2D19C00 peer=FFFF9DCAC2D18000 
+291914 14:28:33.221728244 2 nginx (27608) > ioctl fd=3(<u>) request=5421 argument=7FFC753D6774 
+291915 14:28:33.221729038 2 nginx (27608) < ioctl res=0 
+291916 14:28:33.221729863 2 nginx (27608) > ioctl fd=7(<u>) request=5421 argument=7FFC753D6774 
+291917 14:28:33.221730150 2 nginx (27608) < ioctl res=0 
+291918 14:28:33.221730594 2 nginx (27608) > ioctl fd=3(<u>) request=5452 argument=7FFC753D67B0 
+291919 14:28:33.221733849 2 nginx (27608) < ioctl res=0 
+291920 14:28:33.221734499 2 nginx (27608) > fcntl fd=3(<u>) cmd=10(F_SETOWN) 
+291921 14:28:33.221735354 2 nginx (27608) < fcntl res=0(<p>) 
+291922 14:28:33.221735926 2 nginx (27608) > fcntl fd=3(<u>) cmd=3(F_SETFD) 
+291923 14:28:33.221736254 2 nginx (27608) < fcntl res=0(<p>) 
+291925 14:28:33.221736824 2 nginx (27608) > fcntl fd=7(<u>) cmd=3(F_SETFD) 
+291926 14:28:33.221737046 2 nginx (27608) < fcntl res=0(<p>) 
+291930 14:28:33.221743577 2 nginx (27608) > clone 
+291937 14:28:33.221767830 2 nginx (27608) > switch next=16932 pgft_maj=0 pgft_min=906 vm_size=32412 vm_rss=5108 vm_swap=0 
+292014 14:28:33.221928775 2 nginx (27608) > switch next=16932 pgft_maj=0 pgft_min=906 vm_size=32412 vm_rss=5108 vm_swap=0 
+292152 14:28:33.222193404 2 nginx (27608) < clone res=6 exe=nginx: master proces args= tid=27608(nginx) pid=27608(nginx) ptid=27591(docker-containe) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=906 vm_size=32412 vm_rss=5108 vm_swap=0 comm=nginx cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=0 uid=0 gid=0 vtid=1(systemd) vpid=1(systemd) 
+292162 14:28:33.222207206 1 nginx (27659) < clone res=0 exe=nginx: master proces args= tid=27659(nginx) pid=27659(nginx) ptid=27608(nginx) cwd= fdlimit=1048576 pgft_maj=0 pgft_min=1 vm_size=32412 vm_rss=812 vm_swap=0 comm=nginx cgroups=cpuset=/docker/f162a2858653e86e6572294f13b3d7188e7e6760c08d9711a68201ef109ead... flags=0 uid=0 gid=0 vtid=6 vpid=6 
+292185 14:28:33.222230957 2 nginx (27608) > rt_sigsuspend 
+292189 14:28:33.222234386 2 nginx (27608) > switch next=0 pgft_maj=0 pgft_min=910 vm_size=32412 vm_rss=5108 vm_swap=0 
+292197 14:28:33.222241094 1 nginx (27659) > set_robust_list 
+292198 14:28:33.222241753 1 nginx (27659) < set_robust_list 
+292204 14:28:33.222257710 1 nginx (27659) > getpid 
+292205 14:28:33.222258206 1 nginx (27659) < getpid 
+292247 14:28:33.222311183 1 nginx (27659) > geteuid 
+292249 14:28:33.222311779 1 nginx (27659) < geteuid euid=0(root) 
+292251 14:28:33.222312904 1 nginx (27659) > setgid gid=101(systemd-journal) 
+292259 14:28:33.222317878 1 nginx (27659) < setgid res=0 
+292262 14:28:33.222319109 1 nginx (27659) > open 
+292288 14:28:33.222350044 1 nginx (27659) < open fd=8(<f>/proc/sys/kernel/ngroups_max) name=/proc/sys/kernel/ngroups_max flags=1(O_RDONLY) mode=0 
+292289 14:28:33.222351448 1 nginx (27659) > read fd=8(<f>/proc/sys/kernel/ngroups_max) size=31 
+292291 14:28:33.222354458 1 nginx (27659) < read res=6 data=65536. 
+292292 14:28:33.222355022 1 nginx (27659) > close fd=8(<f>/proc/sys/kernel/ngroups_max) 
+292293 14:28:33.222355505 1 nginx (27659) < close res=0 
+292391 14:28:33.222451130 1 nginx (27659) > open 
+292400 14:28:33.222466497 1 nginx (27659) < open fd=8(<f>/etc/group) name=/etc/group flags=4097(O_RDONLY|O_CLOEXEC) mode=0 
+292404 14:28:33.222469339 1 nginx (27659) > lseek fd=8(<f>/etc/group) offset=0 whence=1(SEEK_CUR) 
+292408 14:28:33.222470700 1 nginx (27659) < lseek res=0 
+292411 14:28:33.222472180 1 nginx (27659) > fstat fd=8(<f>/etc/group) 
+292417 14:28:33.222475585 1 nginx (27659) < fstat res=0 
+292419 14:28:33.222476149 1 nginx (27659) > mmap addr=0 length=459 prot=1(PROT_READ) flags=1(MAP_SHARED) fd=8(<f>/etc/group) offset=0 
+292423 14:28:33.222481839 1 nginx (27659) < mmap res=7FA0041A5000 vm_size=32416 vm_rss=812 vm_swap=0 
+292424 14:28:33.222482514 1 nginx (27659) > lseek fd=8(<f>/etc/group) offset=459 whence=0(SEEK_SET) 
+292425 14:28:33.222482998 1 nginx (27659) < lseek res=459 
+292438 14:28:33.222495675 1 nginx (27659) > fstat fd=8(<f>/etc/group) 
+292442 14:28:33.222498108 1 nginx (27659) < fstat res=0 
+292445 14:28:33.222499934 1 nginx (27659) > munmap addr=7FA0041A5000 length=459 
+292452 14:28:33.222508597 1 nginx (27659) < munmap res=0 vm_size=32412 vm_rss=2048 vm_swap=0 
+292453 14:28:33.222509288 1 nginx (27659) > close fd=8(<f>/etc/group) 
+292455 14:28:33.222510261 1 nginx (27659) < close res=0 
+292457 14:28:33.222514227 1 nginx (27659) > setgroups 
+292463 14:28:33.222520005 1 nginx (27659) < setgroups 
+292464 14:28:33.222521148 1 nginx (27659) > setuid uid=101(systemd-network) 
+292467 14:28:33.222523767 1 nginx (27659) < setuid res=0 
+292469 14:28:33.222525676 1 nginx (27659) > prctl 
+292470 14:28:33.222526545 1 nginx (27659) < prctl 
+292471 14:28:33.222527235 1 nginx (27659) > rt_sigprocmask 
+292472 14:28:33.222530452 1 nginx (27659) < rt_sigprocmask 
+292476 14:28:33.222544008 1 nginx (27659) > epoll_create 
+292478 14:28:33.222546486 1 nginx (27659) < epoll_create 
+292480 14:28:33.222549815 1 nginx (27659) > eventfd initval=0 flags=0 
+292482 14:28:33.222551431 1 nginx (27659) < eventfd res=9(<e>) 
+292484 14:28:33.222552297 1 nginx (27659) > epoll_ctl 
+292485 14:28:33.222553666 1 nginx (27659) < epoll_ctl 
+292486 14:28:33.222554613 1 nginx (27659) > eventfd initval=0 flags=0 
+292487 14:28:33.222556202 1 nginx (27659) < eventfd res=10(<e>) 
+292488 14:28:33.222556798 1 nginx (27659) > ioctl fd=10(<e>) request=5421 argument=7FFC753D6510 
+292490 14:28:33.222557555 1 nginx (27659) < ioctl res=0 
+292492 14:28:33.222558614 1 nginx (27659) > io_setup 
+292497 14:28:33.222583056 1 nginx (27659) < io_setup 
+292498 14:28:33.222584047 1 nginx (27659) > epoll_ctl 
+292499 14:28:33.222585086 1 nginx (27659) < epoll_ctl 
+292500 14:28:33.222585586 1 nginx (27659) > socketpair domain=1(AF_LOCAL) type=1 proto=0 
+292505 14:28:33.222593355 1 nginx (27659) < socketpair res=0 fd1=11(<u>) fd2=12(<u>) source=FFFF9DCB20491800 peer=FFFF9DCB20492000 
+292507 14:28:33.222594820 1 nginx (27659) > epoll_ctl 
+292508 14:28:33.222595736 1 nginx (27659) < epoll_ctl 
+292511 14:28:33.222601646 1 nginx (27659) > close fd=12(<u>) 
+292512 14:28:33.222602039 1 nginx (27659) < close res=0 
+292514 14:28:33.222606181 1 nginx (27659) > epoll_wait maxevents=1 
+292515 14:28:33.222607511 1 nginx (27659) < epoll_wait res=1 
+292516 14:28:33.222607929 1 nginx (27659) > close fd=11(<u>) 
+292517 14:28:33.222608298 1 nginx (27659) < close res=0 
+292522 14:28:33.222655845 1 nginx (27659) > mmap addr=0 length=249856 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0 
+292523 14:28:33.222659020 1 nginx (27659) < mmap res=7FA004163000 vm_size=32660 vm_rss=2048 vm_swap=0 
+292526 14:28:33.222663405 1 nginx (27659) > brk addr=55733F533000 
+292527 14:28:33.222665251 1 nginx (27659) < brk res=55733F533000 vm_size=32884 vm_rss=2048 vm_swap=0 
+292584 14:28:33.222873765 1 nginx (27659) > epoll_ctl 
+292586 14:28:33.222875915 1 nginx (27659) < epoll_ctl 
+292587 14:28:33.222894428 1 nginx (27659) > close fd=3(<u>) 
+292588 14:28:33.222895158 1 nginx (27659) < close res=0 
+292589 14:28:33.222896288 1 nginx (27659) > epoll_ctl 
+292590 14:28:33.222897715 1 nginx (27659) < epoll_ctl 
+292593 14:28:33.222902866 1 nginx (27659) > epoll_wait maxevents=512 
+292596 14:28:33.222906965 1 nginx (27659) > switch next=27471(TaskSchedulerFo) pgft_maj=0 pgft_min=168 vm_size=32884 vm_rss=2372 vm_swap=0 
+618865 14:28:39.609039183 0 nginx (27608) < rt_sigsuspend 
+618866 14:28:39.609043252 0 nginx (27608) > signaldeliver spid=0 dpid=27608(nginx) sig=2(SIGINT) 
+618878 14:28:39.609095487 0 nginx (27608) > sigreturn 
+618885 14:28:39.609131395 0 nginx (27608) > sendmsg fd=3(<u>) size=32 tuple=NULL 
+618892 14:28:39.609169983 0 nginx (27608) < sendmsg res=32 data=................................ 
+618894 14:28:39.609174970 0 nginx (27608) > setitimer 
+618895 14:28:39.609178323 0 nginx (27608) < setitimer 
+618896 14:28:39.609178974 1 nginx (27659) < epoll_wait res=1 
+618897 14:28:39.609180287 0 nginx (27608) > rt_sigsuspend 
+618906 14:28:39.609244801 0 nginx (27608) > switch next=4430(dockerd) pgft_maj=0 pgft_min=917 vm_size=32412 vm_rss=5108 vm_swap=0 
+618910 14:28:39.609260261 1 nginx (27659) > recvmsg fd=7(<u>) 
+618911 14:28:39.609271732 1 nginx (27659) < recvmsg res=32 size=32 data=................................ tuple=NULL 
+618912 14:28:39.609276644 1 nginx (27659) > recvmsg fd=7(<u>) 
+618914 14:28:39.609278994 1 nginx (27659) < recvmsg res=-11(EAGAIN) size=32 data= tuple=NULL 
+619043 14:28:39.610506126 1 nginx (27659) > exit_group 
+619054 14:28:39.610535940 1 nginx (27659) > switch next=3341(docker-containe) pgft_maj=0 pgft_min=262 vm_size=0 vm_rss=0 vm_swap=0 
+622815 14:28:39.647894776 1 nginx (27659) > procexit status=0 
+622818 14:28:39.647933850 0 nginx (27608) < rt_sigsuspend 
+622819 14:28:39.647936004 0 nginx (27608) > signaldeliver spid=6 dpid=27608(nginx) sig=17(SIGCHLD) 
+622820 14:28:39.647946812 0 nginx (27608) > wait4 
+622821 14:28:39.647957180 0 nginx (27608) < wait4 
+622822 14:28:39.647958885 0 nginx (27608) > wait4 
+622823 14:28:39.647959292 0 nginx (27608) < wait4 
+622824 14:28:39.647959935 0 nginx (27608) > sigreturn 
+622826 14:28:39.647963227 0 nginx (27608) > close fd=3(<u>) 
+622827 14:28:39.647964735 0 nginx (27608) < close res=0 
+622831 14:28:39.647978841 0 nginx (27608) > close fd=7(<u>) 
+622832 14:28:39.647979767 0 nginx (27608) < close res=0 
+622834 14:28:39.647986308 0 nginx (27608) > unlink path=/var/run/nginx.pid 
+622850 14:28:39.648080926 0 nginx (27608) < unlink res=0 
+622853 14:28:39.648083675 0 nginx (27608) > close fd=6(<2>0.0.0.0:http) 
+622855 14:28:39.648084551 0 nginx (27608) < close res=0 
+622961 14:28:39.648398838 0 nginx (27608) > exit_group 
+622962 14:28:39.648732061 0 nginx (27608) > procexit status=0 
