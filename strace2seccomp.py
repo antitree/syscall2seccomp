@@ -39,10 +39,20 @@ def _syscall_template():
 
 def to_profile(syscalls):
     template = _load_template()  # load json as dict
+    # calls each have a block
+    """
     for call in syscalls:
         newsyscall = _syscall_template()
         newsyscall["name"] = call
         template["syscalls"].append(newsyscall)
+    """
+
+    # calls are in one block
+    newsyscall = _syscall_template()
+    newsyscall["name"] = list(syscalls)
+    template["syscalls"].append(newsyscall)
+
+
     print(json.dumps(template, indent=4))
         
     
