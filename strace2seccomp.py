@@ -43,13 +43,13 @@ def to_profile(syscalls):
     """
     for call in syscalls:
         newsyscall = _syscall_template()
-        newsyscall["name"] = call
+        newsyscall["names"] = call
         template["syscalls"].append(newsyscall)
     """
 
     # calls are in one block
     newsyscall = _syscall_template()
-    newsyscall["name"] = list(syscalls)
+    newsyscall["names"] = list(syscalls)
     template["syscalls"].append(newsyscall)
 
 
