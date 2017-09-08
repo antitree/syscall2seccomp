@@ -1,6 +1,6 @@
 # strace2seccomp
 
-The goal of this script is to help build a custom seccomp BPF profile by collecting
+This tool tries to help build custom Docker seccomp profile by collecting
 syscalls from various tools and outputting them to the [Docker custom seccomp profiles](https://docs.docker.com/engine/security/seccomp/) JSON format. 
 In theory, this would  let you come up with a customized whitelist of only the required syscalls and
 block/error/crash\* all other syscall attempts. 
