@@ -7,7 +7,7 @@ block/error/crash\* all other syscall attempts.
 
 Usage:
 
-With [`sysdig`](https://www.sysdig.org/)
+With [`sysdig`](https://www.sysdig.com/)
 
 ```
 python3 ./syscall2seccomp.py -s path-to-sysdig-output
