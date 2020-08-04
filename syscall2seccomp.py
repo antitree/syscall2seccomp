@@ -34,7 +34,10 @@ def main():
 
     with fileinput.input(files=(args.strace)) as f:
         if args.sysdig:
-            app_syscalls.update((x.replace('>','<').split(' < ', 1)[1].split(' ')[0] for x in f))
+            for x in f:
+                x=x.strip()
+                if x:
+                    app_syscalls.update(x.replace('>','<').split(' < ', 1)[1].split(' ')[0])
         else: 
             app_syscalls.update((x.split('(', 1)[0] for x in f if x[0].isalpha()))
     
